@@ -56,7 +56,7 @@ html_theme = 'pydata_sphinx_theme'
 
 # Add some more theme Options
 html_theme_options = {
-    'github_url': 'https://github.com/mgrover1/blog',
+    'github_url': 'https://github.com/mgrover1/mgrover1.github.io',
     'search_bar_text': 'Search this site... ',
 }
 
@@ -76,7 +76,7 @@ html_sidebars = {
 }
 
 
-blog_baseurl = 'mgrover1.github.io/blog/'
+blog_baseurl = 'mgrover1.github.io'
 blog_title = 'Max Grover'
 blog_path = 'blog'
 fontawesome_included = True
