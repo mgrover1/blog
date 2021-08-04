@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>mgrover1.github.io/blog/</id>
+  <id>mgrover1.github.io</id>
   <title>Max Grover</title>
-  <updated>2021-08-04T03:52:00.346809+00:00</updated>
-  <link href="mgrover1.github.io/blog/"/>
-  <link href="mgrover1.github.io/blog/blog/atom.xml" rel="self"/>
+  <updated>2021-08-04T03:52:52.939138+00:00</updated>
+  <link href="mgrover1.github.io"/>
+  <link href="mgrover1.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
   <entry>
-    <id>mgrover1.github.io/blog/posts/2021/test/</id>
+    <id>mgrover1.github.io/posts/2021/test/</id>
     <title>Test</title>
     <updated>2021-08-03T00:00:00+00:00</updated>
     <author>
@@ -15,7 +15,7 @@
     </author>
     <content type="html">&lt;p&gt;This is a test post&lt;/p&gt;
 </content>
-    <link href="mgrover1.github.io/blog/posts/2021/test/" rel="alternate"/>
+    <link href="mgrover1.github.io/posts/2021/test/" rel="alternate"/>
     <summary>This is a test post</summary>
     <category term="test" label="test"/>
     <published>2021-08-03T00:00:00+00:00</published>
