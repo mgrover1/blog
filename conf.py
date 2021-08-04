@@ -98,7 +98,7 @@ jupyter_execute_notebooks = 'off'
 
 
 comments_config = {
-    'utterances': {'repo': 'NCAR/esds', 'optional': 'config', 'label': '💬 comment'},
+    'utterances': {'repo': 'mgrover1/mgrover1.github.io', 'optional': 'config', 'label': '💬 comment'},
 }
 
 
