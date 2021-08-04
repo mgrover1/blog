@@ -1,0 +1,21 @@
+name: mgrover-blog
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.7
+  - pip
+  - ablog
+  - cftime
+  - colorspacious
+  - jupyterlab>=3
+  - myst-nb>=0.12.0
+  - pydata-sphinx-theme>=0.4.3
+  - python=3.9
+  - sphinx
+  - sphinx-autobuild
+  - sphinx-comments
+  - sphinx-panels
+  - sphinxcontrib-bibtex<2.0.0
+  - pip:
+      - sphinxext-opengraph
