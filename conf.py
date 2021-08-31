@@ -58,6 +58,7 @@ html_theme = 'pydata_sphinx_theme'
 html_theme_options = {
     'github_url': 'https://github.com/mgrover1/mgrover1.github.io',
     'search_bar_text': 'Search this site... ',
+    'google_analytics_id': 'UA-179020619-2',
 }
 
 
