@@ -2,22 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>mgrover1.github.io</id>
   <title>Max Grover</title>
-  <updated>2021-08-31T02:51:35.693704+00:00</updated>
+  <updated>2021-08-31T04:33:35.902829+00:00</updated>
   <link href="mgrover1.github.io"/>
   <link href="mgrover1.github.io/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.19">ABlog</generator>
   <entry>
-    <id>mgrover1.github.io/posts/2021/test/</id>
-    <title>Test</title>
-    <updated>2021-08-03T00:00:00+00:00</updated>
+    <id>mgrover1.github.io/posts/2021/westward-bound/</id>
+    <title>Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</title>
+    <updated>2021-08-30T00:00:00+00:00</updated>
     <author>
       <name>Max Grover</name>
     </author>
-    <content type="html">&lt;p&gt;This is a test post&lt;/p&gt;
+    <content type="html">&lt;p&gt;September is fast approaching which marks six months since I started my role as a software engineer at the National Center for Atmospheric Research. It is crazy to think that just six months ago, I was pushing to finish the first draft of my Master’s Thesis. So much has changed since then.&lt;/p&gt;
+&lt;p&gt;I started at the University of Illinois in the Atmospheric Science graduate program in Fall of 2019, after completing the &lt;a class="reference external" href="https://www.unidata.ucar.edu/blogs/news/entry/welcome-summer-intern-max-grover"&gt;Unidata Summer Internship Program&lt;/a&gt;, moving from Boulder to Champaign. I remember leaving one of the parks in the Table Mesa neighborhood thinking that I wanted to come back to Boulder at some point…&lt;/p&gt;
+&lt;img alt="NCAR picture of me" src="../_images/ncar_max.png" /&gt;
 </content>
-    <link href="mgrover1.github.io/posts/2021/test/" rel="alternate"/>
-    <summary>This is a test post</summary>
-    <category term="test" label="test"/>
-    <published>2021-08-03T00:00:00+00:00</published>
+    <link href="mgrover1.github.io/posts/2021/westward-bound/" rel="alternate"/>
+    <summary>September is fast approaching which marks six months since I started my role as a software engineer at the National Center for Atmospheric Research. It is crazy to think that just six months ago, I was pushing to finish the first draft of my Master’s Thesis. So much has changed since then.I started at the University of Illinois in the Atmospheric Science graduate program in Fall of 2019, after completing the Unidata Summer Internship Program, moving from Boulder to Champaign. I remember leaving one of the parks in the Table Mesa neighborhood thinking that I wanted to come back to Boulder at some point…NCAR picture of me</summary>
+    <category term="NCAR" label="NCAR"/>
+    <category term="GradSchool" label="Grad School"/>
+    <category term="Colorado" label="Colorado"/>
+    <published>2021-08-30T00:00:00+00:00</published>
   </entry>
 </feed>
