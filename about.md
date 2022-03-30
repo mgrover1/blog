@@ -1,7 +1,22 @@
 # About
 
 ## Software
-In my role as a software engineer at the [National Center for Atmospheric Research](http://ncar.ucar.edu), I work on a wide variety of projects. A few of the primary include
+
+I now work as a software developer for the Department of Energy (DOE) [Atmospheric Radation Measurement (ARM) Facility](https://www.arm.gov) at [Argonne National Laboratory](https://www.anl.gov) in Lemont, Illinois. A few of the projects I work on at Argonne inlcude:
+
+### [The Python-ARM Radar Toolkit (PyART)](https://github.com/ARM-DOE/pyart)
+Which is a data model driven interactive toolkit for working with weather radar data. The package focuses on:
+- Input/Output
+- Radar data processing
+- Visualization
+
+### [The Atmospheric data Community Toolkit (ACT)](https://github.com/ARM-DOE/ACT)
+Whis is a python based toolkit for exploring and analyzing time series atmospheric datasets. Key components here include:
+- Data discovery
+- Simplified I/O
+- Plotting utilities
+
+In my role as a software engineer at the [National Center for Atmospheric Research](http://ncar.ucar.edu), I worked on a wide variety of projects. A few of the primary include
 
 ### [NCAR Earth System Data Science Initiative](http://ncar.github.io/esds)
 We are working on building a sociotechincal network within NCAR to support analysis workflows, focusing on:
