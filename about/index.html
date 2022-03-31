@@ -4,11 +4,13 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>About &#8212; Python, Weather, and Climate Nerd 0.1 documentation</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet" />
-  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,19 +20,15 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -78,8 +76,21 @@ commentsRunWhenDOMLoaded(addUtterances);
     <link rel="next" title="Talks" href="../talks/" />
     <link rel="prev" title="Max Grover" href="../" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
-     
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-179020619-2', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+ 
 <link
   rel="alternate"
   type="application/atom+xml"
@@ -113,7 +124,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 </style>
 
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -169,10 +180,8 @@ commentsRunWhenDOMLoaded(addUtterances);
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/mgrover1/mgrover1.github.io" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/mgrover1/mgrover1.github.io" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
       </ul>
       </div>
@@ -188,7 +197,8 @@ commentsRunWhenDOMLoaded(addUtterances);
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><div class="profile-pic">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><div class="profile-pic">
     <img src="../_static/max_unidata_pic.jpg" />
 </div>
 <div class="bio-info">
@@ -205,6 +215,9 @@ commentsRunWhenDOMLoaded(addUtterances);
       to push forward on documenting open science workflows.
     </div>
 </div>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -215,7 +228,7 @@ commentsRunWhenDOMLoaded(addUtterances);
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage pt-5 pb-3">
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
 
@@ -226,6 +239,16 @@ commentsRunWhenDOMLoaded(addUtterances);
    Software
   </a>
   <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-python-arm-radar-toolkit-pyart">
+     The Python-ARM Radar Toolkit (PyART)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-atmospheric-data-community-toolkit-act">
+     The Atmospheric data Community Toolkit (ACT)
+    </a>
+   </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#ncar-earth-system-data-science-initiative">
      NCAR Earth System Data Science Initiative
@@ -275,13 +298,32 @@ commentsRunWhenDOMLoaded(addUtterances);
           <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
               
               <div>
-                 <div class="tex2jax_ignore mathjax_ignore section" id="about">
-<h1>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="software">
-<h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h2>
-<p>In my role as a software engineer at the <a class="reference external" href="http://ncar.ucar.edu">National Center for Atmospheric Research</a>, I work on a wide variety of projects. A few of the primary include</p>
-<div class="section" id="ncar-earth-system-data-science-initiative">
-<h3><a class="reference external" href="http://ncar.github.io/esds">NCAR Earth System Data Science Initiative</a><a class="headerlink" href="#ncar-earth-system-data-science-initiative" title="Permalink to this headline">¶</a></h3>
+                 <section class="tex2jax_ignore mathjax_ignore" id="about">
+<h1>About<a class="headerlink" href="#about" title="Permalink to this headline">#</a></h1>
+<section id="software">
+<h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">#</a></h2>
+<p>I now work as a software developer for the Department of Energy (DOE) <a class="reference external" href="https://www.arm.gov">Atmospheric Radation Measurement (ARM) Facility</a> at <a class="reference external" href="https://www.anl.gov">Argonne National Laboratory</a> in Lemont, Illinois. A few of the projects I work on at Argonne inlcude:</p>
+<section id="the-python-arm-radar-toolkit-pyart">
+<h3><a class="reference external" href="https://github.com/ARM-DOE/pyart">The Python-ARM Radar Toolkit (PyART)</a><a class="headerlink" href="#the-python-arm-radar-toolkit-pyart" title="Permalink to this headline">#</a></h3>
+<p>Which is a data model driven interactive toolkit for working with weather radar data. The package focuses on:</p>
+<ul class="simple">
+<li><p>Input/Output</p></li>
+<li><p>Radar data processing</p></li>
+<li><p>Visualization</p></li>
+</ul>
+</section>
+<section id="the-atmospheric-data-community-toolkit-act">
+<h3><a class="reference external" href="https://github.com/ARM-DOE/ACT">The Atmospheric data Community Toolkit (ACT)</a><a class="headerlink" href="#the-atmospheric-data-community-toolkit-act" title="Permalink to this headline">#</a></h3>
+<p>Whis is a python based toolkit for exploring and analyzing time series atmospheric datasets. Key components here include:</p>
+<ul class="simple">
+<li><p>Data discovery</p></li>
+<li><p>Simplified I/O</p></li>
+<li><p>Plotting utilities</p></li>
+</ul>
+<p>I was previously employed at the <a class="reference external" href="http://ncar.ucar.edu">National Center for Atmospheric Research</a>, where I worked on a wide variety of projects. A few of the primary projects include:</p>
+</section>
+<section id="ncar-earth-system-data-science-initiative">
+<h3><a class="reference external" href="http://ncar.github.io/esds">NCAR Earth System Data Science Initiative</a><a class="headerlink" href="#ncar-earth-system-data-science-initiative" title="Permalink to this headline">#</a></h3>
 <p>We are working on building a sociotechincal network within NCAR to support analysis workflows, focusing on:</p>
 <ul class="simple">
 <li><p>Education</p></li>
@@ -289,25 +331,25 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>Presentations on Works-In-Progress</p></li>
 <li><p>Focused development efforts around specific packages</p></li>
 </ul>
-</div>
-<div class="section" id="earth-system-model-catalog-tools">
-<h3><a class="reference external" href="https://ecgtools.readthedocs.io/en/latest/">Earth System Model Catalog Tools</a><a class="headerlink" href="#earth-system-model-catalog-tools" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="earth-system-model-catalog-tools">
+<h3><a class="reference external" href="https://ecgtools.readthedocs.io/en/latest/">Earth System Model Catalog Tools</a><a class="headerlink" href="#earth-system-model-catalog-tools" title="Permalink to this headline">#</a></h3>
 <p>A tool for building <a class="reference external" href="https://intake-esm.readthedocs.io/en/latest/">intake-esm</a> data catalogs, providing a simplified data api to catalog files and query data assets</p>
-</div>
-<div class="section" id="funnel">
-<h3><a class="reference external" href="https://github.com/NCAR/esds-funnel">Funnel</a><a class="headerlink" href="#funnel" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="funnel">
+<h3><a class="reference external" href="https://github.com/NCAR/esds-funnel">Funnel</a><a class="headerlink" href="#funnel" title="Permalink to this headline">#</a></h3>
 <p>A package/project which couples data operators (such as climatological or zonal means) and data catalogs, extending these catalogs by providing a unified api</p>
-</div>
-</div>
-<div class="section" id="research">
-<h2>Research<a class="headerlink" href="#research" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+<section id="research">
+<h2>Research<a class="headerlink" href="#research" title="Permalink to this headline">#</a></h2>
 <p>Prior to starting my software engineering role at NCAR, I worked as a graduate research assistant at the University of Illinois Urbana-Champaign. Feel free to check out my <a class="reference external" href="https://scholar.google.com/citations?user=ZQMa8CkAAAAJ&amp;hl=en">google scholar</a> for the latest updates.</p>
-<div class="section" id="relampago-cacti-field-campaign">
-<h3><a class="reference external" href="https://sites.google.com/illinois.edu/relampago/home">RELAMPAGO-CACTI Field Campaign</a><a class="headerlink" href="#relampago-cacti-field-campaign" title="Permalink to this headline">¶</a></h3>
+<section id="relampago-cacti-field-campaign">
+<h3><a class="reference external" href="https://sites.google.com/illinois.edu/relampago/home">RELAMPAGO-CACTI Field Campaign</a><a class="headerlink" href="#relampago-cacti-field-campaign" title="Permalink to this headline">#</a></h3>
 <p>During my time at Illinois, I worked with observational data from the RELAMPAGO-CACTI Field Campaign, which took place in the Sierras de Cordoba region in South America. Although I did not travel and participate in the data collection, I analyzed radar, satellite, and soundings, focusing on relating midlevel updraft structure with storm top cloud structures.</p>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 <div class="section">
    
@@ -316,12 +358,23 @@ commentsRunWhenDOMLoaded(addUtterances);
               </div>
               
               
-              <div class='prev-next-bottom'>
-                
-    <a class='left-prev' id="prev-link" href="../" title="previous page">Max Grover</a>
-    <a class='right-next' id="next-link" href="../talks/" title="next page">Talks</a>
-
-              </div>
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Max Grover</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../talks/" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Talks</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
               
           </main>
           
@@ -329,30 +382,20 @@ commentsRunWhenDOMLoaded(addUtterances);
       </div>
     </div>
   
-  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
-
-  
-<script async="" src="https://www.google-analytics.com/analytics.js"></script>
-<script>
-                        window.ga = window.ga || function () {
-                            (ga.q = ga.q || []).push(arguments) };
-                        ga.l = +new Date;
-                        ga('create', 'UA-179020619-2', 'auto');
-                        ga('set', 'anonymizeIp', true);
-                        ga('send', 'pageview');
-                    </script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 <footer class="footer mt-5 mt-md-0">
   <div class="container">
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright 2021-2021. Heavily influenced by @andersy005.<br/>
+    &copy; Copyright 2021-2022. Heavily influenced by @andersy005.<br>
 </p>
     </div>
     
     <div class="footer-item">
       <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br/>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
 </p>
     </div>
     
