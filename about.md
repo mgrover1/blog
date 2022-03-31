@@ -16,7 +16,7 @@ Whis is a python based toolkit for exploring and analyzing time series atmospher
 - Simplified I/O
 - Plotting utilities
 
-In my role as a software engineer at the [National Center for Atmospheric Research](http://ncar.ucar.edu), I worked on a wide variety of projects. A few of the primary include
+I was previously employed at the [National Center for Atmospheric Research](http://ncar.ucar.edu), where I worked on a wide variety of projects. A few of the primary projects include:
 
 ### [NCAR Earth System Data Science Initiative](http://ncar.github.io/esds)
 We are working on building a sociotechincal network within NCAR to support analysis workflows, focusing on:
