@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>mgrover1.github.io</id>
+  <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-06-07T02:44:28.931479+00:00</updated>
-  <link href="mgrover1.github.io"/>
-  <link href="mgrover1.github.io/blog/atom.xml" rel="self"/>
+  <updated>2022-06-07T02:51:06.560590+00:00</updated>
+  <link href="https://blog.mgrover.dev"/>
+  <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.25">ABlog</generator>
   <entry>
-    <id>mgrover1.github.io/posts/2021/westward-bound/</id>
+    <id>https://blog.mgrover.dev/posts/2021/westward-bound/</id>
     <title>Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</title>
     <updated>2021-08-30T00:00:00+00:00</updated>
     <author>
@@ -19,7 +19,7 @@
 &lt;img alt="NCAR picture of me" src="../_images/ncar_max.png" /&gt;
 &lt;/div&gt;
 </content>
-    <link href="mgrover1.github.io/posts/2021/westward-bound/" rel="alternate"/>
+    <link href="https://blog.mgrover.dev/posts/2021/westward-bound/" rel="alternate"/>
     <summary>September is fast approaching which marks six months since I started my role as a software engineer at the National Center for Atmospheric Research. It is crazy to think that just six months ago, I was pushing to finish the first draft of my Master’s Thesis. So much has changed since then.I started at the University of Illinois in the Atmospheric Science graduate program in Fall of 2019, after completing the Unidata Summer Internship Program, moving from Boulder to Champaign. I remember leaving one of the parks in the Table Mesa neighborhood thinking that I wanted to come back to Boulder at some point…NCAR picture of me</summary>
     <category term="NCAR" label="NCAR"/>
     <category term="GradSchool" label="Grad School"/>
@@ -27,7 +27,7 @@
     <published>2021-08-30T00:00:00+00:00</published>
   </entry>
   <entry>
-    <id>mgrover1.github.io/posts/2022/moving-to-illinois/</id>
+    <id>https://blog.mgrover.dev/posts/2022/moving-to-illinois/</id>
     <title>Moving to Illinois (Again)</title>
     <updated>2022-06-06T00:00:00+00:00</updated>
     <author>
@@ -40,7 +40,7 @@
 &lt;img alt="Delavan Lake Sunset Picture" src="../_images/delavan-lake-sunset.png" /&gt;
 &lt;/div&gt;
 </content>
-    <link href="mgrover1.github.io/posts/2022/moving-to-illinois/" rel="alternate"/>
+    <link href="https://blog.mgrover.dev/posts/2022/moving-to-illinois/" rel="alternate"/>
     <summary>It has been a while since my last post! Over the past ~9 months, I started a new job at Argonne National Laboratory and relocated to the state of Illinois, more specifically the Western Suburbs of Chicago, Illinois. I work with Scott Collis, a scientist and Geospatial Computing, Innovations, and Sensing (GCIS) Department Head. He is also the inventor of the Python Atomspheric Radiation Measurement Toolkit (Py-ART), one of the go-to packages when working with weather radar data in Python.One of the nicest things about relocating is the proximity to my family in Wisconsin. I have gone back to see them several times already, spending quite a bit of time on Delavan Lake (shown below)
 Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
     <category term="Illinois" label="Illinois"/>
