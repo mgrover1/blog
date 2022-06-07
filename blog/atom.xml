@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>mgrover1.github.io</id>
   <title>Max Grover</title>
-  <updated>2022-03-31T00:06:01.234789+00:00</updated>
+  <updated>2022-06-07T02:44:28.931479+00:00</updated>
   <link href="mgrover1.github.io"/>
   <link href="mgrover1.github.io/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.23">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.25">ABlog</generator>
   <entry>
     <id>mgrover1.github.io/posts/2021/westward-bound/</id>
     <title>Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</title>
@@ -25,5 +25,27 @@
     <category term="GradSchool" label="Grad School"/>
     <category term="Colorado" label="Colorado"/>
     <published>2021-08-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>mgrover1.github.io/posts/2022/moving-to-illinois/</id>
+    <title>Moving to Illinois (Again)</title>
+    <updated>2022-06-06T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;It has been a while since my last post! Over the past ~9 months, I started a new job at Argonne National Laboratory and relocated to the state of Illinois, more specifically the Western Suburbs of Chicago, Illinois. I work with Scott Collis, a scientist and Geospatial Computing, Innovations, and Sensing (GCIS) Department Head. He is also the inventor of the &lt;a class="reference external" href="https://arm-doe.github.io/pyart/index.html"&gt;Python Atomspheric Radiation Measurement Toolkit (Py-ART)&lt;/a&gt;, one of the go-to packages when working with weather radar data in Python.&lt;/p&gt;
+&lt;p&gt;One of the nicest things about relocating is the proximity to my family in Wisconsin. I have gone back to see them several times already, spending quite a bit of time on Delavan Lake (shown below)
+&lt;img alt="Delavan Lake Sunset Picture" src="../_images/delavan-lake-sunset.png" /&gt;&lt;/p&gt;
+&lt;img alt="Delavan Lake Sunset Picture" src="../_images/delavan-lake-sunset.png" /&gt;
+&lt;/div&gt;
+</content>
+    <link href="mgrover1.github.io/posts/2022/moving-to-illinois/" rel="alternate"/>
+    <summary>It has been a while since my last post! Over the past ~9 months, I started a new job at Argonne National Laboratory and relocated to the state of Illinois, more specifically the Western Suburbs of Chicago, Illinois. I work with Scott Collis, a scientist and Geospatial Computing, Innovations, and Sensing (GCIS) Department Head. He is also the inventor of the Python Atomspheric Radiation Measurement Toolkit (Py-ART), one of the go-to packages when working with weather radar data in Python.One of the nicest things about relocating is the proximity to my family in Wisconsin. I have gone back to see them several times already, spending quite a bit of time on Delavan Lake (shown below)
+Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
+    <category term="Illinois" label="Illinois"/>
+    <category term="Argonne" label="Argonne"/>
+    <category term="Wisconsin" label="Wisconsin"/>
+    <published>2022-06-06T00:00:00+00:00</published>
   </entry>
 </feed>
