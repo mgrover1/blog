@@ -77,7 +77,7 @@ html_sidebars = {
 }
 
 
-blog_baseurl = 'mgrover1.github.io'
+blog_baseurl = 'https://blog.mgrover.dev'
 blog_title = 'Max Grover'
 blog_path = 'blog'
 fontawesome_included = True
