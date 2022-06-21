@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-06-07T02:51:06.560590+00:00</updated>
+  <updated>2022-06-21T02:57:01.051349+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.25">ABlog</generator>
@@ -47,5 +47,27 @@ Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
     <category term="Argonne" label="Argonne"/>
     <category term="Wisconsin" label="Wisconsin"/>
     <published>2022-06-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2022/earthcube-takeaways/</id>
+    <title>Earthcube Annual Meeting Takeaways</title>
+    <updated>2022-06-20T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="San Diego beach at sunset" src="../_images/san_diego_sunset.png" /&gt;&lt;/p&gt;
+&lt;img alt="San Diego beach at sunset" src="../_images/san_diego_sunset.png" /&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2022/earthcube-takeaways/" rel="alternate"/>
+    <summary>Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.San Diego beach at sunsetSan Diego beach at sunset</summary>
+    <category term="Earthcube" label="Earthcube"/>
+    <category term="Cookbooks" label="Cookbooks"/>
+    <category term="Pythia" label="Pythia"/>
+    <category term="California" label="California"/>
+    <category term="SanDiego" label="San Diego"/>
+    <published>2022-06-20T00:00:00+00:00</published>
   </entry>
 </feed>

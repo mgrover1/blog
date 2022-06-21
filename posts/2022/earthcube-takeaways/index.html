@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Earthcube Annual Meeting Takeaways &#8212; Python, Weather, and Climate Nerd 0.1 documentation</title>
+<script>
+  document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+  document.documentElement.dataset.theme = localStorage.getItem("theme") || "light"
+</script>
+
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=92025949c220c2e29695" rel="stylesheet">
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=92025949c220c2e29695" rel="stylesheet">
+
+
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=92025949c220c2e29695">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "mgrover1/mgrover1.github.io");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script async="async" src="https://www.google-analytics.com/analytics.js"></script>
+    <script>
+                window.ga = window.ga || function () {
+                    (ga.q = ga.q || []).push(arguments) };
+                ga.l = +new Date;
+                ga('create', 'UA-179020619-2', 'auto');
+                ga('set', 'anonymizeIp', true);
+                ga('send', 'pageview');
+            </script>
+    <link rel="author" title="About these documents" href="../../../about/" />
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="docsearch:language" content="None"> 
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../../blog/atom.xml"
+  title="Max Grover"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+    <div class="bd-header-announcement container-fluid" id="banner">
+      
+
+    </div>
+
+    
+    <nav class="bd-header navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="bd-header__inner container-xl">
+
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../../../">
+  
+  
+  
+  
+  
+    <p class="title logo__title">Python, Weather, and Climate Nerd 0.1 documentation</p>
+  
+</a>
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fas fa-bars"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../about/">
+  About
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../talks/">
+  Talks
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../blog/">
+  Blog
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <span id="theme-switch" class="btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/mgrover1/mgrover1.github.io" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="bd-container container-xl">
+      <div class="bd-container__inner row">
+          
+
+<!-- Only show if we have sidebars configured, else just a small margin  -->
+<div class="bd-sidebar-primary col-12 col-md-3 bd-sidebar">
+  <div class="sidebar-start-items">  
+<h2>
+   <i class="fa fa-calendar"></i>
+  20 June 2022 
+</h2>
+
+<ul>
+   
+<li id="author">
+  <span
+    ><i class="fa-fw fa fa-user"></i></span
+  >
+   
+  <a href="../../../blog/author/max-grover/">Max Grover</a>  
+</li>
+    
+<li id="tags">
+  <span
+    ><i class="fa-fw fa fa-tags"></i> </span
+  >
+   
+  <a href="../../../blog/tag/earthcube/">Earthcube</a>   
+  <a href="../../../blog/tag/cookbooks/">Cookbooks</a>   
+  <a href="../../../blog/tag/pythia/">Pythia</a>   
+  <a href="../../../blog/tag/california/">California</a>   
+  <a href="../../../blog/tag/san-diego/">San Diego</a>  
+</li>
+ 
+</ul>
+
+<h3>
+  <a href="../../../blog/">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../moving-to-illinois/"
+      >06 June - Moving to Illinois (Again)</a
+    >
+  </li>
+  
+  <li>
+    <a href="../../2021/westward-bound/"
+      >30 August - Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</a
+    >
+  </li>
+  
+</ul>
+
+<h3>
+  <a href="../../../blog/archive/">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../../../blog/2022/">2022 (2)</a>
+  </li>
+    
+  <li>
+    <a href="../../../blog/2021/">2021 (1)</a>
+  </li>
+   
+</ul>
+
+  </div>
+  <div class="sidebar-end-items">
+  </div>
+</div>
+
+
+          
+
+
+<div class="bd-sidebar-secondary d-none d-xl-block col-xl-2 bd-toc">
+  
+    
+    <div class="toc-item">
+      
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#whats-earthcube-why-did-i-go">
+   What’s Earthcube? Why did I go?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-did-i-present">
+   What did I present?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-radar-cookbook-poster">
+     The Radar Cookbook Poster
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-was-san-diego">
+   How was San Diego?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-were-my-main-takeaways-from-the-meeting-itself">
+   What were my main takeaways from the meeting itself?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusions">
+   Conclusions
+  </a>
+ </li>
+</ul>
+
+</nav>
+    </div>
+    
+    <div class="toc-item">
+      
+    </div>
+    
+  
+</div>
+
+
+          
+          
+          <div class="bd-content col-12 col-md-9 col-xl-7">
+              
+              <article class="bd-article" role="main">
+                 <section id="earthcube-annual-meeting-takeaways">
+<h1>Earthcube Annual Meeting Takeaways<a class="headerlink" href="#earthcube-annual-meeting-takeaways" title="Permalink to this headline">#</a></h1>
+<p>Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.</p>
+<p><img alt="San Diego beach at sunset" src="../../../_images/san_diego_sunset.png" /></p>
+<section id="whats-earthcube-why-did-i-go">
+<h2>What’s Earthcube? Why did I go?<a class="headerlink" href="#whats-earthcube-why-did-i-go" title="Permalink to this headline">#</a></h2>
+<p>Earthcube is an organization, funded by the National Science Foundation, which is focused around facilitating communities and practices related to geoscience data and cyberinfrastructure (the computers + software needed to get science done). From their <a class="reference external" href="https://www.earthcube.org/info">official information page</a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> “For nearly a decade, the EarthCube community has been transforming the conduct of geosciences research by developing and maintaining a well-connected and facile environment that improves access, sharing, visualization, and analysis of data and related resources. While sharable tools, methods, and cyberinfrastructure have been critical achievements for EarthCube, we find that our dedicated community is what makes our program successful.” 
+</pre></div>
+</div>
+<p>They have an annual meeting, which was held virtually the past two years due to the global pandemic, with this being the first in-person meeting since 2019. I have been an active contributor to one of their related projects, <a class="reference external" href="https://projectpythia.org">Project Pythia</a>, which is an commmunity resource for learning how to get started with Python for the geosciences.</p>
+</section>
+<section id="what-did-i-present">
+<h2>What did I present?<a class="headerlink" href="#what-did-i-present" title="Permalink to this headline">#</a></h2>
+<p>I presented on progress related to a collaboration with Project Pythia at the Atmospheric Radiation Measurement (ARM) user facility, our Radar Cookbook! The cookbook expands upon the Pythia Foundations material, covering more advanced topics related to working with open weather radar data using open source Python tools, specifically Py-ART!</p>
+<section id="the-radar-cookbook-poster">
+<h3>The Radar Cookbook Poster<a class="headerlink" href="#the-radar-cookbook-poster" title="Permalink to this headline">#</a></h3>
+<p>Here is the poster I presented:</p>
+<p><img alt="earthcube poster about radar cookbooks" src="../../../_images/earthcube-2022-mgrover.png" /></p>
+<p>If you are interested in checking out our radar cookbook, here is the link:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projectpythiatutorials.github.io/radar-cookbook/landing-page.html">Radar Cookbook</a></p></li>
+</ul>
+<p>The poster presentation went great and I received quite a bit of positive feedback in addition to some possible collaborations with other members of the geoscience community.</p>
+</section>
+</section>
+<section id="how-was-san-diego">
+<h2>How was San Diego?<a class="headerlink" href="#how-was-san-diego" title="Permalink to this headline">#</a></h2>
+<p>The conference was on the Northside of San Diego, specifically in La Jolla at the Scripps Seaside Forum. I can honestly say that this was the most beautiful conference venue I have ever seen. Here is a picture of the tables set outside for breakfast every morning.</p>
+<p><img alt="tables next to beach" src="../../../_images/san_diego_beach.png" /></p>
+<p>We were blessed with fantastic weather the whole week (except for a bit of mist on the way from the airport to the hotel on the first day). This allowed us to eat outside for all of our meals, keep doors and windows open to enhance airflow, and generally convene in a healthy COVID-preventative environment. I am thankful the conference organizers and attendees took COVID precautions seriously.</p>
+<p>I had a chance to check out some local restaurants, including the Shore Rider in La Jolla Shores and Dukes in downtown La Jolla. Both places had incredible seafood, which I don’t eat too often in the Midwest!</p>
+</section>
+<section id="what-were-my-main-takeaways-from-the-meeting-itself">
+<h2>What were my main takeaways from the meeting itself?<a class="headerlink" href="#what-were-my-main-takeaways-from-the-meeting-itself" title="Permalink to this headline">#</a></h2>
+<p>While I could likely assemble several pages of takeaways from the conference, here are four(ish) main points and resources</p>
+<ul class="simple">
+<li><p>Eathcube has been around for a while, and has enabled an incredible community of both domain scientists  and cyberinfrastructure folks</p></li>
+<li><p>Tracking metadata and connecting data is tough - there are so many ongoing projects and efforts to make this easier, with one of the main being the <a class="reference external" href="https://www.earthcube.org/geocodes">Geocodes Project</a></p>
+<ul>
+<li><p>Another neat project is the <a class="reference external" href="https://datacommons.org/">Data Commons</a> project, another large collaboration mainly focused on Census, climate, and other geographic data sources</p></li>
+</ul>
+</li>
+<li><p>With Earthcube winding down (this is the last year of NSF funding), best practices and lessons learned are being assembled, with most notes going into the sustainability document</p>
+<ul>
+<li><p><span class="xref myst">Earthcube Sustainability Document</span></p></li>
+</ul>
+</li>
+<li><p>One of the main innovations to come out of Earthcube is the idea of (Jupyter) Notebooks as Scholarly Publishing, including a well-developed review process and collaboration with AGU and other societies. Here is a link to this year’s accepted submissions hosted on Github:</p>
+<ul>
+<li><p><a class="reference external" href="https://github.com/earthcube2022">Earthcube Posters</a></p></li>
+</ul>
+</li>
+</ul>
+<p>I very much enjoyed the format of the meeting, with a good mix of conference-style talks, workshops, and networking opportunities. I hope other conferences will take a look at their schedule (<a class="reference external" href="https://www.conftool.org/earthcube2022/sessions.php">Earthcube Annual Meeting 2022 Schedule</a>) and consider structuring theirs in a similar way!</p>
+</section>
+<section id="conclusions">
+<h2>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">#</a></h2>
+<p>Last week’s conference was amazing. Even though I am not funded by an Earthcube related project, it was a fantastic place to present our progress on radar cookbooks, and how ARM + DOE fits into this space. We are fortunate to have our <a class="reference external" href="https://www.arm.gov/data/">ARM data portal</a>, which adheres to the FAIR (Findable, Accessible, Interoperable, and Reproducible) guidelines, and support for software development related to working with these datasets. I hope to connect more with the Earthcube community, making our resources findable on their tools (such as geocodes).I look forward to making more progress on our Open Science cookbooks, enabling more science in our community!</p>
+</section>
+</section>
+
+<div class="section">
+    
+
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../moving-to-illinois/">
+      <i class="fa fa-arrow-circle-left"></i> Moving to Illinois (Again)
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+              </article>
+              
+
+              
+              <footer class="bd-footer-article">
+                  <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              </footer>
+              
+          </div>
+          
+      </div>
+    </div>
+
+  
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=92025949c220c2e29695"></script>
+
+<footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    <p class="copyright">
+    &copy; Copyright 2021-2022. Heavily influenced by @andersy005.<br>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+  </div>
+  
+</div>
+</footer>
+  </body>
+</html>
