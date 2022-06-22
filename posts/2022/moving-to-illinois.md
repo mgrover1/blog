@@ -8,6 +8,8 @@ tags: Illinois, Argonne, Wisconsin
 
 It has been a while since my last post! Over the past ~9 months, I started a new job at Argonne National Laboratory and relocated to the state of Illinois, more specifically the Western Suburbs of Chicago, Illinois. I work with Scott Collis, a scientist and Geospatial Computing, Innovations, and Sensing (GCIS) Department Head. He is also the inventor of the [Python Atomspheric Radiation Measurement Toolkit (Py-ART)](https://arm-doe.github.io/pyart/index.html), one of the go-to packages when working with weather radar data in Python.
 
+## Closer to Home
+
 One of the nicest things about relocating is the proximity to my family in Wisconsin. I have gone back to see them several times already, spending quite a bit of time on Delavan Lake (shown below)
 ![Delavan Lake Sunset Picture](../images/delavan-lake-sunset.png)
 
