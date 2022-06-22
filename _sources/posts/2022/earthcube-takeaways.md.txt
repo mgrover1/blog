@@ -5,9 +5,7 @@ tags: Earthcube, Cookbooks, Pythia, California, San Diego
 ---
 
 # Earthcube Annual Meeting Takeaways
-Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.
-
-![San Diego beach at sunset](../images/san_diego_sunset.png)
+Last week, I attended the Earthcube Annual Meeting in San Diego, California! 
 
 ## What’s Earthcube? Why did I go?
 Earthcube is an organization, funded by the National Science Foundation, which is focused around facilitating communities and practices related to geoscience data and cyberinfrastructure (the computers + software needed to get science done). From their [official information page](https://www.earthcube.org/info):
@@ -17,6 +15,10 @@ Earthcube is an organization, funded by the National Science Foundation, which i
 ```
 
 They have an annual meeting, which was held virtually the past two years due to the global pandemic, with this being the first in-person meeting since 2019. I have been an active contributor to one of their related projects, [Project Pythia](https://projectpythia.org), which is an commmunity resource for learning how to get started with Python for the geosciences.
+
+Here is an image from the conference venue, the Scripps Institution of Oceanography.
+
+![San Diego beach at sunset](../images/san_diego_sunset.png)
 
 ## What did I present?
 I presented on progress related to a collaboration with Project Pythia at the Atmospheric Radiation Measurement (ARM) user facility, our Radar Cookbook! The cookbook expands upon the Pythia Foundations material, covering more advanced topics related to working with open weather radar data using open source Python tools, specifically Py-ART! 

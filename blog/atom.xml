@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-06-21T03:04:13.630915+00:00</updated>
+  <updated>2022-06-22T16:25:30.123017+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.25">ABlog</generator>
@@ -56,13 +56,13 @@ Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
       <name>Max Grover</name>
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="San Diego beach at sunset" src="../_images/san_diego_sunset.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Last week, I attended the Earthcube Annual Meeting in San Diego, California!&lt;/p&gt;
+&lt;p&gt;Earthcube is an organization, funded by the National Science Foundation, which is focused around facilitating communities and practices related to geoscience data and cyberinfrastructure (the computers + software needed to get science done). From their &lt;a class="reference external" href="https://www.earthcube.org/info"&gt;official information page&lt;/a&gt;:&lt;/p&gt;
 &lt;img alt="San Diego beach at sunset" src="../_images/san_diego_sunset.png" /&gt;
 &lt;/div&gt;
 </content>
     <link href="https://blog.mgrover.dev/posts/2022/earthcube-takeaways/" rel="alternate"/>
-    <summary>Last week, I attended the Earthcube Annual Meeting in San Diego, California! Here is an image from the conference venue, the Scripps Institution of Oceanography.San Diego beach at sunsetSan Diego beach at sunset</summary>
+    <summary>Last week, I attended the Earthcube Annual Meeting in San Diego, California!Earthcube is an organization, funded by the National Science Foundation, which is focused around facilitating communities and practices related to geoscience data and cyberinfrastructure (the computers + software needed to get science done). From their official information page:San Diego beach at sunset</summary>
     <category term="Earthcube" label="Earthcube"/>
     <category term="Cookbooks" label="Cookbooks"/>
     <category term="Pythia" label="Pythia"/>
