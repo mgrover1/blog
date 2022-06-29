@@ -2,7 +2,7 @@
 
 ## Software
 
-I now work as a software developer for the Department of Energy (DOE) [Atmospheric Radation Measurement (ARM) Facility](https://www.arm.gov) at [Argonne National Laboratory](https://www.anl.gov) in Lemont, Illinois. A few of the projects I work on at Argonne inlcude:
+I now work as a software developer for the Department of Energy (DOE) [Atmospheric Radation Measurement (ARM) user facility](https://www.arm.gov) at [Argonne National Laboratory](https://www.anl.gov) in Lemont, Illinois. A few of the projects I work on at Argonne inlcude:
 
 ### [The Python-ARM Radar Toolkit (PyART)](https://github.com/ARM-DOE/pyart)
 Which is a data model driven interactive toolkit for working with weather radar data. The package focuses on:
