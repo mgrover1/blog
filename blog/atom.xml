@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-06-29T14:47:52.085443+00:00</updated>
+  <updated>2022-07-17T15:17:49.194579+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.25">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
   <entry>
     <id>https://blog.mgrover.dev/posts/2021/westward-bound/</id>
     <title>Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</title>
@@ -69,5 +69,21 @@ Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
     <category term="California" label="California"/>
     <category term="SanDiego" label="San Diego"/>
     <published>2022-06-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2022/scipy-takeaways/</id>
+    <title>Scientific Python Conference (SciPy) 2022</title>
+    <updated>2022-07-17T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2022/scipy-takeaways/" rel="alternate"/>
+    <category term="SciPy" label="SciPy"/>
+    <category term="Conference" label="Conference"/>
+    <category term="Outreach" label="Outreach"/>
+    <published>2022-07-17T00:00:00+00:00</published>
   </entry>
 </feed>
