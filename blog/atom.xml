@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-07-18T03:16:08.197258+00:00</updated>
+  <updated>2022-07-18T03:27:54.742608+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.26">ABlog</generator>
@@ -79,14 +79,12 @@ Delavan Lake Sunset PictureDelavan Lake Sunset Picture</summary>
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
 &lt;p&gt;This past week, I attended my third SciPy conference, with this being the first in-person event.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="ATT conference hotel at night" src="../_images/att-conference.jpeg" /&gt;
-The AT&amp;amp;T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.&lt;/p&gt;
+&lt;p&gt;The host of SciPy 2022 - the AT&amp;amp;T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.&lt;/p&gt;
 &lt;img alt="ATT conference hotel at night" src="../_images/att-conference.jpeg" /&gt;
 &lt;/div&gt;
 </content>
     <link href="https://blog.mgrover.dev/posts/2022/scipy-takeaways/" rel="alternate"/>
-    <summary>This past week, I attended my third SciPy conference, with this being the first in-person event.ATT conference hotel at night
-The AT&amp;T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.ATT conference hotel at night</summary>
+    <summary>This past week, I attended my third SciPy conference, with this being the first in-person event.The host of SciPy 2022 - the AT&amp;T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.ATT conference hotel at night</summary>
     <category term="SciPy" label="SciPy"/>
     <category term="Conference" label="Conference"/>
     <category term="Outreach" label="Outreach"/>
