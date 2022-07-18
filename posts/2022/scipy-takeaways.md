@@ -8,8 +8,10 @@ tags: SciPy, Conference, Outreach, Open-Science
 This past week, I attended my third SciPy conference, with this being the first in-person event.
 
 ## Overview of the Conference
+
+The host of SciPy 2022 - the AT&T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.
+
 ![ATT conference hotel at night](../images/att-conference.jpeg)
-The AT&T Hotel and Conference Center near the University of Texas Campus in Austin, Texas.
 
 ### What’s SciPy?
 
@@ -44,9 +46,9 @@ I am glad that many Pangeo community members attended, included folks from Colum
 I attended tutorials covering distributed + parallel computing using Dask, and  interactive plotting tutorials showcasing hvPlot and PyVista. These toolsets are essential to the atmospheric data science stack - allowing us to scale our analysis, and visualize our output. 
 
 Here is a link to the repositories/content used:
-* [GitHub - dask/dask-tutorial: Dask tutorial](https://github.com/dask/dask-tutorial)
-* [Installation — HoloViz 0.15.0 documentation](https://holoviz.org/installation.html)
-* [PyVista Tutorial for SciPy 2022 — PyVista Tutorial](https://tutorial.pyvista.org)
+* [Dask Tutorial](https://github.com/dask/dask-tutorial)
+* [hvPlot/holoviews Tutorial](https://holoviz.org/installation.html)
+* [PyVista Tutorial](https://tutorial.pyvista.org)
 
 I plan on adding a future blog post with a neat data visualization using the tools from the tutorials.
 
@@ -68,7 +70,7 @@ My favorite session (slightly biased I know) of the conference was the Earth, Ge
 
 Some of the main themes from this track was how we need flexible and performant tools. Tom’s talk dug into debugging complex Dask issues, which was solved by working with the Dask core developers. Keeping these lines of communication open and working together to solve these tough technical issues are what enable new questions to be answered from datasets like the one Tom presented - at the petabyte scale (1,000 terabytes).
 
-There were so many other great sessions on data, maintainers tools, and keynotes about how important open and inclusive science are (looking at you Ben and Ryan). 
+There were so many other great sessions on data, maintainers tools, and keynotes about how important open and inclusive science are. 
 
 I will be sure to link the videos here once they are posted on YouTube!
 
