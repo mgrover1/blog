@@ -1,0 +1,473 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ERAD Takeaways &#8212; Python, Weather, and Climate Nerd 0.1 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "mgrover1/mgrover1.github.io");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="author" title="About these documents" href="../../../about/" />
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+<script async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script>
+                        window.ga = window.ga || function () {
+                            (ga.q = ga.q || []).push(arguments) };
+                        ga.l = +new Date;
+                        ga('create', 'UA-179020619-2', 'auto');
+                        ga('set', 'anonymizeIp', true);
+                        ga('send', 'pageview');
+                    </script>
+ 
+<link
+  rel="alternate"
+  type="application/atom+xml"
+  href="../../../blog/atom.xml"
+  title="Max Grover"
+/>
+ 
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../../">
+<p class="title">Python, Weather, and Climate Nerd</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../about/">
+  About
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../talks/">
+  Talks
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../blog/">
+  Blog
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/mgrover1" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/mgroverwx" rel="noopener" target="_blank" title="Twitter"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items">  
+<h2>
+   <i class="fa fa-calendar"></i>
+  03 September 2022 
+</h2>
+
+<ul>
+   
+<li id="author">
+  <span
+    ><i class="fa-fw fa fa-user"></i></span
+  >
+   
+  <a href="../../../blog/author/max-grover/">Max Grover</a>  
+</li>
+    
+<li id="tags">
+  <span
+    ><i class="fa-fw fa fa-tags"></i> </span
+  >
+   
+  <a href="../../../blog/tag/open-science/">Open-Science</a>   
+  <a href="../../../blog/tag/conference/">Conference</a>   
+  <a href="../../../blog/tag/radar/">Radar</a>   
+  <a href="../../../blog/tag/outreach/">Outreach</a>   
+  <a href="../../../blog/tag/pangeo/">Pangeo</a>  
+</li>
+ 
+</ul>
+
+<h3>
+  <a href="../../../blog/">Recent Posts</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../scipy-takeaways/"
+      >17 July - SciPy 2022 Reflection</a
+    >
+  </li>
+  
+  <li>
+    <a href="../earthcube-takeaways/"
+      >20 June - Earthcube Annual Meeting Takeaways</a
+    >
+  </li>
+  
+  <li>
+    <a href="../moving-to-illinois/"
+      >06 June - Moving to Illinois (Again)</a
+    >
+  </li>
+  
+  <li>
+    <a href="../../2021/westward-bound/"
+      >30 August - Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</a
+    >
+  </li>
+  
+</ul>
+
+<h3>
+  <a href="../../../blog/archive/">Archives</a>
+</h3>
+<ul>
+   
+  <li>
+    <a href="../../../blog/2022/">2022 (4)</a>
+  </li>
+    
+  <li>
+    <a href="../../../blog/2021/">2021 (1)</a>
+  </li>
+   
+</ul>
+
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-workshop">
+   The Workshop
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-pre-workshop-meeting">
+     The Pre-Workshop Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     The Workshop
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-conference">
+   The Conference
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-city">
+   The City
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-future-of-open-radar">
+   The Future of Open Radar
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <section id="erad-takeaways">
+<h1>ERAD Takeaways<a class="headerlink" href="#erad-takeaways" title="Permalink to this headline">#</a></h1>
+<p>This week, I attended the 11th  European Conference on Radar in Meteorology and Hydrology in Locarno, Switzerland! This conference brought a large community of weather forecast agencies (hosted by Meteoswiss, the Swiss weather service), researchers, software developers, vendors, and other members of the private sector.</p>
+<p>The conference consisted of two main parts:</p>
+<ul class="simple">
+<li><p>“The Academy” which were day long short courses</p>
+<ul>
+<li><p>Open Radar Software</p></li>
+<li><p>PySteps - a tool focused around nowcasting (short term weather forecasting on the order of hours)</p></li>
+<li><p>Using polarimetric weather radar data</p></li>
+</ul>
+</li>
+<li><p>The conference</p>
+<ul>
+<li><p>~12 minute conference-style talks</p></li>
+<li><p>Triplets where three people presented together on a similar topic</p></li>
+<li><p>Lectures presented by well-respected members of the field</p></li>
+</ul>
+</li>
+</ul>
+<section id="the-workshop">
+<h2>The Workshop<a class="headerlink" href="#the-workshop" title="Permalink to this headline">#</a></h2>
+<section id="the-pre-workshop-meeting">
+<h3>The Pre-Workshop Meeting<a class="headerlink" href="#the-pre-workshop-meeting" title="Permalink to this headline">#</a></h3>
+<p>I helped teach/setup the infrastructure for the Open Radar Software workshop. We arrived two days before the short course started since we setup our first joint-Open Radar Software developers meeting on Saturday. Meteoswiss kindly hosted this meeting, where we discussed the logistics for the workshop and highlighted next steps forward for our community.</p>
+<p>One of the key opportunities for collaboration discussed during this meeting (and will be a priority moving forward) is a new package focused solely on a new data model for radar data in Python. We will build the necessary tools to load radar data into the Pangeo-friendly standard data model - Xarray! Moving to this data model, will enable cross compatibility across the Pangeo stack, and conform to the proposed cfradial2 standard, which will soon be adopted by the World Meteorological Organization.</p>
+<p>A graphic from the cfradial2 standard is summarized below (thanks to Mark Curtis), highlighting the hierarchal data model approach, which aligns with the recently developed xarray-datatree package. The conference material will be available after the conference, so I encourage you check out the rest of Mark Curtis’s poster!</p>
+<p><img alt="Radar datatree" src="../../../_images/xradar-datatree.png" />
+<strong>Cfradial2 data structure, as summarized by Mark Curtis in his poster.</strong></p>
+</section>
+<section id="id1">
+<h3>The Workshop<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<p>The workshop has been taught for a number of years, originally starting with a Virtual Machine approach that required users downloading the virtual machine software, importing the image, and running on their local laptop. We have since adapted the content to run on the Pangeo hub (using the Project Pythia cookbook theme), using the Jupyter stack (JupyterBook, JupyterHub, and Jupyter notebooks). Using this new stack led to a quicker time-to-science, which was amazing!</p>
+<p>If you are interested in going through the content, here is a link to the book!</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://openradarscience.org/erad2022">openradarscience.org/erad2022</a></p></li>
+</ul>
+<p>We are appreciative of communities such as Pangeo, and organizations like 2i2c for making the setup and deployment of this workshop so straightforward and accessible.</p>
+</section>
+</section>
+<section id="the-conference">
+<h2>The Conference<a class="headerlink" href="#the-conference" title="Permalink to this headline">#</a></h2>
+<p>It was incredible seeing the variety of research presented at ERAD. Talks ranged from precipitation estimation methods to observations of bugs and birds across Europe. One major commonality across a collection of the talks was the reliance on open radar software. While not all the talks used Py-ART,   quite a few did, in addition to other packages such as wradlib, LROSE, or BALTRAD. It was inspiring to see so many members of the operational and research weather community using our software for their science.</p>
+<p>One of the first talks, presented partly by Daniel Michelson, highlighted that the future of European weather radar data is open. They are working to open the shared radar data, currently only available to a small community, to the entire science community over the next few years. The key product they mentioned is a blended Europe-wide radar product.</p>
+<p>I also jotted down quite a few new ideas for improved visualization methods in Py-ART, where we can improve our documentation, and new blog posts highlighting how Py-ART is being used around the world. The first blog post we want to work with the Metoswiss folks to put together is one walking through how Meteoswiss uses Py-ART for qualitative precipitation estimation (QPE). This was one of the examples during the workshop, but it would be great to have a deeper dive into this workflow!</p>
+</section>
+<section id="the-city">
+<h2>The City<a class="headerlink" href="#the-city" title="Permalink to this headline">#</a></h2>
+<p>The city of Locarno was gorgeous. Wednesday afternoon’s schedule included an excursion of the conference goers choice. I chose the Gormet Grotto option, which was a trip to a delicious local restaurant nestled in one of the local valleys. I included an image of the of the restaurant below:</p>
+<p><img alt="Image of a restaurant in the woods" src="../../../_images/locarno-grotto.jpg" /></p>
+<p>After the conference, I took the chairlift up to the top of the nearest mountain to get a better look of the City of Locarno. I attached that picture
+here too!</p>
+<p><img alt="Image overlooking Locarno" src="../../../_images/chairlift-locarno.jpg" /></p>
+<p>I appreciate all the hard work the ERAD 2022 conference planning committee put in to making this event possible, and I am grateful they
+chose such a beautiful city for the conference.</p>
+</section>
+<section id="the-future-of-open-radar">
+<h2>The Future of Open Radar<a class="headerlink" href="#the-future-of-open-radar" title="Permalink to this headline">#</a></h2>
+<p>I am excited to have been brought onto the Open Radar Science team. I am thankful that Scott Collis and the team at Argonne/ARM provided me the opportunity to not only join the team, but travel to Switzerland to enable our radar community to do more science. I made many new connections, especially with the other software developers, and look forward to continuing to grow these collaborations and friendships. I look forward to continuing to grow the open radar science community, as well the more general Pangeo community.</p>
+<p>We have already setup our refreshed website (using the pydata-sphinx theme), which was a byproduct of working with Kai (the main wradlib developer) during the conference.</p>
+<p>Here is a link to the new site!</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://openradarscience.org">openradarscience.org</a></p></li>
+</ul>
+<p>Time to start the count down to AMS Radar 2023 in Minneapolis, and ERAD 2024 in Rome, Italy.</p>
+</section>
+</section>
+
+<div class="section">
+    
+
+<div class="section">
+  <span style="float: left">
+     
+    <a href="../scipy-takeaways/">
+      <i class="fa fa-arrow-circle-left"></i> SciPy 2022 Reflection
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021-2022. Heavily influenced by @andersy005.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
