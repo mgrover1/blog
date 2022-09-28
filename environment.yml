@@ -1,9 +1,9 @@
 name: mgrover-blog
 channels:
   - conda-forge
+  - pyviz
   - nodefaults
 dependencies:
-  - python>=3.7
   - pip
   - ablog
   - cftime
@@ -12,6 +12,12 @@ dependencies:
   - myst-nb>=0.12.0
   - pydata-sphinx-theme<0.9.0
   - python=3.9
+  - cartopy
+  - geopandas
+  - fiona
+  - siphon
+  - hvplot
+  - geoviews
   - sphinx
   - sphinx-autobuild
   - sphinx-comments
