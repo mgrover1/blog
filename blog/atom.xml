@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-09-03T20:23:11.267703+00:00</updated>
+  <updated>2022-09-28T01:04:53.901815+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -25,6 +25,28 @@
     <category term="GradSchool" label="Grad School"/>
     <category term="NCAR" label="NCAR"/>
     <published>2021-08-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2022/hurricane-ian-hvplot/</id>
+    <title>Visualizing Hurricane Ian Using hvPlot</title>
+    <updated>2022-05-27T00:00:00+00:00</updated>
+    <author>
+      <name>Max GRover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Within this post, we explore how we can use &lt;a class="reference external" href="https://hvplot.holoviz.org/"&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;hvPlot&lt;/span&gt;&lt;/code&gt;&lt;/a&gt; to plot data from Hurricane Ian, which will soon make landfall in Florida. By the end of this post, you will be able to recreate the following plot:
+&lt;img alt="Hurricane Ian Plot" src="../_images/hurricane-ian-hvplot.png" /&gt;&lt;/p&gt;
+&lt;p&gt;We are using a few different datasets here. Let’s start with the hurricane forecast from the National Hurricane Center, accessible from their Geographic Information Systems (GIS) webpage:&lt;/p&gt;
+&lt;img alt="Hurricane Ian Plot" src="../_images/hurricane-ian-hvplot.png" /&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2022/hurricane-ian-hvplot/" rel="alternate"/>
+    <summary>Within this post, we explore how we can use hvPlot to plot data from Hurricane Ian, which will soon make landfall in Florida. By the end of this post, you will be able to recreate the following plot:
+Hurricane Ian PlotWe are using a few different datasets here. Let’s start with the hurricane forecast from the National Hurricane Center, accessible from their Geographic Information Systems (GIS) webpage:Hurricane Ian Plot</summary>
+    <category term="DataVisualization" label="Data Visualization"/>
+    <category term="Hurricane" label="Hurricane"/>
+    <category term="NEXRAD" label="NEXRAD"/>
+    <published>2022-05-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://blog.mgrover.dev/posts/2022/moving-to-illinois/</id>
