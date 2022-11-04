@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2022-11-04T03:14:23.917963+00:00</updated>
+  <updated>2022-11-04T03:25:45.720479+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.29">ABlog</generator>
@@ -143,13 +143,13 @@ Hurricane Ian PlotHurricane Ian Plot</summary>
       <name>Max Grover</name>
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;Tonight, Ben Blazik &lt;a class="reference external" href="https://twitter.com/BenBlaiszik"&gt;&amp;#64;&amp;#64;BenBlaiszik&lt;/a&gt; mentioned the following:&lt;/p&gt;
+&lt;p&gt;Tonight, Ben Blaiszik &lt;a class="reference external" href="https://twitter.com/BenBlaiszik"&gt;(&amp;#64;BenBlaiszik)&lt;/a&gt; mentioned the following:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Ben fall picture" src="../_images/fall_screenshot.png" /&gt;&lt;/p&gt;
 &lt;img alt="Ben fall picture" src="../_images/fall_screenshot.png" /&gt;
 &lt;/div&gt;
 </content>
     <link href="https://blog.mgrover.dev/posts/2022/fall-colors-ghcnd/" rel="alternate"/>
-    <summary>Tonight, Ben Blazik @@BenBlaiszik mentioned the following:Ben fall pictureBen fall picture</summary>
+    <summary>Tonight, Ben Blaiszik (@BenBlaiszik) mentioned the following:Ben fall pictureBen fall picture</summary>
     <category term="Chicago" label="Chicago"/>
     <category term="Climate" label="Climate"/>
     <category term="Cloud" label="Cloud"/>
