@@ -23,7 +23,6 @@ copyright = f'2021-{datetime.datetime.now().year}. Heavily influenced by @anders
 author = 'Max Grover'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -36,6 +35,7 @@ extensions = [
     'ablog',
     'sphinx_panels',
     'sphinx_comments',
+    'sphinx_timeline'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -59,7 +59,10 @@ html_theme_options = {
     'github_url': 'https://github.com/mgrover1',
     "twitter_url": "https://twitter.com/mgroverwx",
     'search_bar_text': 'Search this site... ',
-    'google_analytics_id': 'UA-179020619-2',
+    "analytics":{'google_analytics_id':'UA-179020619-2'},
+    "logo": {
+        "text": project,
+    }
 }
 
 
@@ -73,6 +76,7 @@ html_sidebars = {
     'about': ['hello.html'],
     'faq': ['hello.html'],
     'communication': ['hello.html'],
+    'timeline': ['hello.html'],
     'blog': ['tagcloud.html', 'archives.html'],
     'posts/**': ['postcard.html', 'recentposts.html', 'archives.html'],
 }
@@ -84,7 +88,7 @@ blog_path = 'blog'
 fontawesome_included = True
 blog_post_pattern = 'posts/*/*'
 post_redirect_refresh = 1
-post_auto_image = 1
+post_auto_imagec = 1
 post_auto_excerpt = 2
 
 # Panels config

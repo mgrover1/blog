@@ -25,3 +25,4 @@ dependencies:
   - sphinxcontrib-bibtex<2.0.0
   - pip:
       - sphinxext-opengraph
+      - sphinx-timeline
