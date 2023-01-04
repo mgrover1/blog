@@ -22,5 +22,27 @@
 ````
 `````
 
+`````{grid-item-card} MSCAR Python Workshop
+:text-align: center
+<iframe width="90%" src="https://www.youtube.com/embed/aNeAtaJWA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++++
+````{grid} 2 2 2 2
+:margin: 0 0 0 0
+:padding: 0 0 0 0
+:gutter: 1
+```{grid-item}
+:child-direction: row
+:child-align: start
+:class: sd-fs-5
+{bdg-link-secondary}`repo <https://github.com/mgrover1/mscar-python-workshop-2022/>`
+```
+```{grid-item}
+:child-direction: row
+:child-align: end
+
+```
+````
+`````
+
 ``````
     

@@ -1,3 +1,8 @@
+- name: MSCAR Python Workshop
+  video: '<iframe width="90%" src="https://www.youtube.com/embed/aNeAtaJWA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  date: 2022-10-02
+  repository: https://github.com/mgrover1/mscar-python-workshop-2022/
+
 - name: NCAR Python Tutorial Seminar Series - Intake-ESM
   video: '<iframe width="90%" src="https://www.youtube.com/embed/pfdMbJMlYsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   date: 2021-12-08
