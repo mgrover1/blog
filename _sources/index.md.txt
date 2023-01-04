@@ -15,6 +15,7 @@ Hello! I am a fortunate enough to work as a software developer at Argonne Nation
 :hidden:
 about
 talks
+teaching
 blog
 timeline
 ```
