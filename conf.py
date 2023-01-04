@@ -14,6 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import datetime
+import pathlib
+from textwrap import dedent
+import yaml
+from sphinx.application import Sphinx
+from sphinx.util import logging
+
+LOGGER = logging.getLogger('conf')
 
 
 # -- Project information -----------------------------------------------------
@@ -34,6 +41,7 @@ extensions = [
     'myst_nb',
     'ablog',
     'sphinx_panels',
+    'sphinx_design',
     'sphinx_comments',
     'sphinx_timeline'
 ]
@@ -77,6 +85,7 @@ html_sidebars = {
     'faq': ['hello.html'],
     'communication': ['hello.html'],
     'timeline': ['hello.html'],
+    'teaching': ['hello.html'],
     'blog': ['tagcloud.html', 'archives.html'],
     'posts/**': ['postcard.html', 'recentposts.html', 'archives.html'],
 }
@@ -107,6 +116,107 @@ comments_config = {
     'utterances': {'repo': 'mgrover1/mgrover1.github.io', 'optional': 'config', 'label': '💬 comment'},
 }
 
+def build_teaching_gallery(app: Sphinx):
+    LOGGER.info('Building teaching gallery')
+    path = pathlib.Path(app.srcdir) / 'config_data/teaching.yaml'
+    teaching = yaml.safe_load(path.read_text())
+    teaching = sorted(teaching, key=lambda item: item['date'])
+    grid_items = []
+    for item in teaching:
+        if not item.get('video'):
+            item['video'] = '...'
+
+        repo_text = ''
+        star_text = ''
+
+        if item['repository']:
+            repo_text = f'{{bdg-link-secondary}}`repo <{item["repository"]}>`'
+
+            try:
+                url = urlparse(item['repository'])
+                if url.netloc == 'github.com':
+                    _, org, repo = url.path.rstrip('/').split('/')
+                    link = f'https://img.shields.io/github/stars/{org}/{repo}?style=social'
+                    star_text = f"[![GitHub Repo stars]({link})]({item['repository']})"
+            except Exception:
+                pass
+
+        grid_items.append(
+            f"""\
+        `````{{grid-item-card}} {" ".join(item["name"].split())}
+        :text-align: center
+        {item["video"]}
+        +++
+        ````{{grid}} 2 2 2 2
+        :margin: 0 0 0 0
+        :padding: 0 0 0 0
+        :gutter: 1
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: start
+        :class: sd-fs-5
+        {repo_text}
+        ```
+        ```{{grid-item}}
+        :child-direction: row
+        :child-align: end
+        {star_text}
+        ```
+        ````
+        `````
+        """
+        )
+    grid_items = '\n'.join(grid_items)
+
+    panels = f"""``````{{grid}} 2
+:class-container: full-width
+{dedent(grid_items)}
+``````
+    """
+    (pathlib.Path(app.srcdir) / 'teaching_gallery.md').write_text(panels)
+
+
+def build_talks_gallery(app: Sphinx):
+    LOGGER.info('Building talks gallery')
+    path = pathlib.Path(app.srcdir) / 'config_data/talks.yaml'
+    talks = yaml.safe_load(path.read_text())
+    talks = sorted(talks, key=lambda item: item['conference']['date'], reverse=True)
+    LOGGER.info(f'Found {len(talks)} talks')
+    content = [
+        """\
+```{panels}
+:card: text-center
+"""
+    ]
+    for index, item in enumerate(talks):
+        content.append(
+            f"""\
+[{item['title']}]({item['slides']})
+^^^
+{item['video']}
++++
+{item['conference']['name']} | {item['conference']['location']} | {item['conference']['date']}
+"""
+        )
+
+        if index < len(talks) - 1:
+            content.append(
+                """\
+---
+"""
+            )
+
+    content.append(
+        """\
+```"""
+    )
+
+    content = dedent('\n'.join(content))
+    out_path = pathlib.Path(app.srcdir) / 'talks_gallery.md'
+    out_path.write_text(content)
+
 
 def setup(app):
     app.add_css_file('custom.css')
+    app.connect('builder-inited', build_talks_gallery)
+    app.connect('builder-inited', build_teaching_gallery)
