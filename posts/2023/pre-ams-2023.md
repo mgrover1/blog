@@ -4,7 +4,7 @@ date: 2023-01-05
 tags: AMS, Conference, Colorado
 ---
 
-# Reflecting Pre-AMS 2023
+# Pre-AMS 2023 Reflection
  
 It is hard to believe that tomorrow I will hop on a plane for AMS 2023. Am I prepared for all of my presentations, co-chair obligations, and general travel logistics? Absolutely not. I am however excited to reconnect with the weather community in beautiful Colorado, with this being the first in-person AMS Annual Meeting since January 2020.
  
@@ -42,9 +42,6 @@ The 99th Annual Meeting in 2019 was where I first met the Unidata team! For thos
 - So many other tools + services!
  
 I interned with Unidata the summer between undergraduate and graduate school, where I worked with the core MetPy Developers (mainly Ryan May) on implementing METAR support in MetPy! This summer experience was what solidified my decision to pursue a career in scientific software development.
-
-If you are interested in applying for the Unidata Internship Program, here is the link to apply!
-- [Unidata Summer Internship](https://www.unidata.ucar.edu/blogs/news/entry/unidata-summer-student-internships-available4)
  
 I also met with my future graduate school advisor (Jeff Trapp from the University of Illinois Urbana-Champaign) at the AMS Annual Meeting in 2019, along with future graduate school officemates! Hopping around to the different graduate school receptions, as an undergraduate, gave me the opportunity to connect with current graduate students, one of the deciding factors for my eventual decision.
  
@@ -64,4 +61,13 @@ Some other advice I would put out there is:
    - If you are able to, use this as opportunity to fully engage with the meeting, putting off some of those emails or slack messages until you get back to the office or school
  
 ## Conclusions
+
+A few shameless plugs first...
+
+If you are interested in applying for the Unidata Internship Program, here is the link to apply (**Deadline of January 19**):
+- [Unidata Summer Internship](https://www.unidata.ucar.edu/blogs/news/entry/unidata-summer-student-internships-available4)
+
+Or if you are interested in working with our team on software + open science at Argonne National Laboratory, you can apply here (**Deadline of January 10**):
+- [SULI Internship](https://science.osti.gov/wdts/suli/How-to-Apply)
+
 Excited is an understatement. I look forward to AMS 2023 finally being here. I am counting down the hours until we teach our short course on Sunday, and the AMS Python Symposium kicks off on Monday afternoon. I look forward to Monday night's Valpo Meteorology Alumni Reception. Most of all, I am excited for so many people in the weather community to experience their first meeting, and for everyone else to reconnect with the AMS community they have missed so much.
