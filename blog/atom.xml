@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-01-04T03:39:16.848838+00:00</updated>
+  <updated>2023-01-06T03:30:43.827706+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33">ABlog</generator>
@@ -149,5 +149,24 @@ Hurricane Ian Plot</summary>
     <category term="DataVisualization" label="Data Visualization"/>
     <category term="NOAA" label="NOAA"/>
     <published>2022-11-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/pre-ams-2023/</id>
+    <title>Pre-AMS 2023 Reflection</title>
+    <updated>2023-01-05T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;It is hard to believe that tomorrow I will hop on a plane for AMS 2023. Am I prepared for all of my presentations, co-chair obligations, and general travel logistics? Absolutely not. I am however excited to reconnect with the weather community in beautiful Colorado, with this being the first in-person AMS Annual Meeting since January 2020.&lt;/p&gt;
+&lt;p&gt;While I typically reflect on conferences &lt;strong&gt;after&lt;/strong&gt; the event, I wanted to take this as an opportunity to express why the American Meteorological Society (AMS) Annual Meeting is such an amazing event, how it has influenced my career (and my life in general), as well as some general advice for the week!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/pre-ams-2023/" rel="alternate"/>
+    <summary>It is hard to believe that tomorrow I will hop on a plane for AMS 2023. Am I prepared for all of my presentations, co-chair obligations, and general travel logistics? Absolutely not. I am however excited to reconnect with the weather community in beautiful Colorado, with this being the first in-person AMS Annual Meeting since January 2020.While I typically reflect on conferences after the event, I wanted to take this as an opportunity to express why the American Meteorological Society (AMS) Annual Meeting is such an amazing event, how it has influenced my career (and my life in general), as well as some general advice for the week!</summary>
+    <category term="AMS" label="AMS"/>
+    <category term="Colorado" label="Colorado"/>
+    <category term="Conference" label="Conference"/>
+    <published>2023-01-05T00:00:00+00:00</published>
   </entry>
 </feed>
