@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-01-17T02:52:39.669286+00:00</updated>
+  <updated>2023-01-17T02:56:12.755245+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33">ABlog</generator>
@@ -168,5 +168,24 @@ Hurricane Ian Plot</summary>
     <category term="Colorado" label="Colorado"/>
     <category term="Conference" label="Conference"/>
     <published>2023-01-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/post-ams-2023/</id>
+    <title>AMS 2023 Reflections: Thank You Denver (and Boulder)!</title>
+    <updated>2023-01-16T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Last week, I attended the 103rd American Meteorological Society Annual Meeting in Denver Colorado. Prior to attending, I put together a blog post detailing my pre-conference thoughts and expressed a high level of excitement for this year’s conference. It did not disappoint. The week was full of meaningful connections with colleagues, leading an open science short course, and attending sessions where I learned new tools and techniques for working with atmospheric and climate datasets.&lt;/p&gt;
+&lt;p&gt;The week started off with our “Open Science in the Rockies: Working with ARM Data from the Surface Atmosphere Integrated Field Laboratory” short course, with over 20 attendees! A good amount of preparation went into the course, from meeting room logistics, inviting speakers, and testing the cyberinfrastructure that would allow participants to analyze large datasets while on a limited conference internet network. The course started with an overview of the SAIL field campaign, quickly diving into ways to access the data and analyze the datasets using open-source tools funded and supported by ARM! We also covered advanced data visualization techniques using the Pangeo stack, including using Xarray and the Holoviews tools to visualize an entire day’s worth of high spatiotemporal cloud radar data.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/post-ams-2023/" rel="alternate"/>
+    <summary>Last week, I attended the 103rd American Meteorological Society Annual Meeting in Denver Colorado. Prior to attending, I put together a blog post detailing my pre-conference thoughts and expressed a high level of excitement for this year’s conference. It did not disappoint. The week was full of meaningful connections with colleagues, leading an open science short course, and attending sessions where I learned new tools and techniques for working with atmospheric and climate datasets.The week started off with our “Open Science in the Rockies: Working with ARM Data from the Surface Atmosphere Integrated Field Laboratory” short course, with over 20 attendees! A good amount of preparation went into the course, from meeting room logistics, inviting speakers, and testing the cyberinfrastructure that would allow participants to analyze large datasets while on a limited conference internet network. The course started with an overview of the SAIL field campaign, quickly diving into ways to access the data and analyze the datasets using open-source tools funded and supported by ARM! We also covered advanced data visualization techniques using the Pangeo stack, including using Xarray and the Holoviews tools to visualize an entire day’s worth of high spatiotemporal cloud radar data.</summary>
+    <category term="AMS" label="AMS"/>
+    <category term="Colorado" label="Colorado"/>
+    <category term="Conference" label="Conference"/>
+    <published>2023-01-16T00:00:00+00:00</published>
   </entry>
 </feed>
