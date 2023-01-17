@@ -1,3 +1,9 @@
+---
+author: Max Grover
+date: 2023-01-16
+tags: AMS, Conference, Colorado
+---
+
 # AMS 2023 Reflections: Thank You Denver (and Boulder)!
 
 Last week, I attended the 103rd American Meteorological Society Annual Meeting in Denver Colorado. Prior to attending, I put together a blog post detailing my pre-conference thoughts and expressed a high level of excitement for this year’s conference. It did not disappoint. The week was full of meaningful connections with colleagues, leading an open science short course, and attending sessions where I learned new tools and techniques for working with atmospheric and climate datasets.
