@@ -5,3 +5,10 @@
     name: AMS Annual Meeting 2022
     location: Virtual
     date: 2022-01-24
+- title: 'ARMing the Open Science Community with Radar Cookbooks: from the Colorado Rockies to the Gulf Coast and Beyond'
+  slides: https://anl.box.com/s/xidjup2c6twtb1rd2qszxlc3os2iq9x8
+  video: '<iframe width="90%" src="https://ams.confex.com/recording/ams/103ANNUAL/mp4/free/4db77adf5df9fff0d3caf5cafe28f496/session62509_5.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  conference:
+    name: AMS Annual Meeting 2023
+    location: Virtual
+    date: 2023-01-10
