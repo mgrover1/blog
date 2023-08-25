@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-01-17T02:56:12.755245+00:00</updated>
+  <updated>2023-08-25T02:58:23.414681+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
-  <generator uri="https://ablog.readthedocs.org/" version="0.10.33">ABlog</generator>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <entry>
     <id>https://blog.mgrover.dev/posts/2021/westward-bound/</id>
     <title>Westward Bound: Midwestern Grad Student to a Colorado Software Engineer</title>
