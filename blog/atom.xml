@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-08-25T02:58:23.414681+00:00</updated>
+  <updated>2023-11-22T17:40:13.077386+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -187,5 +187,21 @@ Hurricane Ian Plot</summary>
     <category term="Colorado" label="Colorado"/>
     <category term="Conference" label="Conference"/>
     <published>2023-01-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/weathergami-chicago/</id>
+    <title>Interactive Weathergami</title>
+    <updated>2023-11-22T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;img alt="Interactive weathergami plot for Chicago, IL" src="posts/images/interactive-weathergami.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Scorigami is an interesting concept. It’s an event in sports where a final score has never happened in its history. For example, in the &lt;a href='https://nflscorigami.com/' target="_blank"&gt;National Football League&lt;/a&gt;, a 20-17 score has happened over 285 times, but a 70-20 score has only happened once. When the Miami Dolphins beat the Denver Broncos 70-20 on September 24th, 2023, that was considered a scorigami!&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/weathergami-chicago/" rel="alternate"/>
+    <summary>Interactive weathergami plot for Chicago, ILScorigami is an interesting concept. It’s an event in sports where a final score has never happened in its history. For example, in the &lt;a href='https://nflscorigami.com/' target="_blank"&gt;National Football League&lt;/a&gt;, a 20-17 score has happened over 285 times, but a 70-20 score has only happened once. When the Miami Dolphins beat the Denver Broncos 70-20 on September 24th, 2023, that was considered a scorigami!</summary>
+    <published>2023-11-22T00:00:00+00:00</published>
   </entry>
 </feed>
