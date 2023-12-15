@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-11-29T15:03:39.615073+00:00</updated>
+  <updated>2023-12-15T02:07:51.144519+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -203,5 +203,25 @@ Hurricane Ian Plot</summary>
     <link href="https://blog.mgrover.dev/posts/2023/weathergami-chicago/" rel="alternate"/>
     <summary>Interactive weathergami plot for Chicago, ILScorigami is an interesting concept. It’s an event in sports where a final score has never happened in its history. For example, in the &lt;a href='https://nflscorigami.com/' target="_blank"&gt;National Football League&lt;/a&gt;, a 20-17 score has happened over 285 times, but a 70-20 score has only happened once. When the Miami Dolphins beat the Denver Broncos 70-20 on September 24th, 2023, that was considered a scorigami!</summary>
     <published>2023-11-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/wfip3-day1/</id>
+    <title>Argonne Instruments at WFIP3: Day 1 - Landing in Nantucket</title>
+    <updated>2023-12-14T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Today was the first day of my trip focused on deploying instruments from Argonne National Laboratory (ANL) (based in Lemont, Illinois), to the East Coast of the United States for the 3rd Wind Forecast Improvement Project (WFIP3). The project aims to improve wind forecasting ability within models, using both models and observations focused on offshore wind farms in the greater Boston, Massachusetts region. Argonne National Laboratory has a collection of instruments, most of which usually reside at the Argonne Testbed for Multiscale Observational Science (ATMOS) https://www.anl.gov/evs/atmos, which can be deployed for different scientific projects! Instruments at Argonne were deployed for previous Wind Forecast Improvement Projects.&lt;/p&gt;
+&lt;p&gt;The field sites are outlined in the graphic below, which can be found on the project website (https://www2.whoi.edu/site/wfip3/field-observations/)  )&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/wfip3-day1/" rel="alternate"/>
+    <summary>Today was the first day of my trip focused on deploying instruments from Argonne National Laboratory (ANL) (based in Lemont, Illinois), to the East Coast of the United States for the 3rd Wind Forecast Improvement Project (WFIP3). The project aims to improve wind forecasting ability within models, using both models and observations focused on offshore wind farms in the greater Boston, Massachusetts region. Argonne National Laboratory has a collection of instruments, most of which usually reside at the Argonne Testbed for Multiscale Observational Science (ATMOS) https://www.anl.gov/evs/atmos, which can be deployed for different scientific projects! Instruments at Argonne were deployed for previous Wind Forecast Improvement Projects.The field sites are outlined in the graphic below, which can be found on the project website (https://www2.whoi.edu/site/wfip3/field-observations/)  )</summary>
+    <category term="Argonne" label="Argonne"/>
+    <category term="FieldWork" label="Field Work"/>
+    <category term="Instruments" label="Instruments"/>
+    <category term="WFIP3" label="WFIP3"/>
+    <published>2023-12-14T00:00:00+00:00</published>
   </entry>
 </feed>
