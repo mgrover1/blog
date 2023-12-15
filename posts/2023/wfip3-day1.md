@@ -28,6 +28,6 @@ Once on the island, we met up with collaborators from other research institution
 
 We grabbed dinner after checking into the hotel, walking to Brotherhood of Thieves, only a few minutes away. They had phenomenal seafood options, including the traditional lobster roll with clam chowder appetizer.
 
-![Lobster Roll](lobster-roll.png)
+![Lobster Roll](../images/lobster-roll.png)
 
 This was a great way to end the day, and I look forward to helping to install instruments tomorrow, starting the initial data collection process.
