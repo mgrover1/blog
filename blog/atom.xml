@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-12-15T02:15:42.780111+00:00</updated>
+  <updated>2023-12-16T02:20:24.762718+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -223,5 +223,25 @@ Hurricane Ian Plot</summary>
     <category term="Instruments" label="Instruments"/>
     <category term="WFIP3" label="WFIP3"/>
     <published>2023-12-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/wfip3-day2/</id>
+    <title>Argonne Instruments at WFIP3: Day 2 - Installation Begins!</title>
+    <updated>2023-12-15T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Today was the first day of real installation work! We started with a quick breakfast at the hotel, then drove to the field site at sunrise (shown below).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Nantucket Morning" src="../_images/morning-field-site.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/wfip3-day2/" rel="alternate"/>
+    <summary>Today was the first day of real installation work! We started with a quick breakfast at the hotel, then drove to the field site at sunrise (shown below).Nantucket Morning</summary>
+    <category term="Argonne" label="Argonne"/>
+    <category term="FieldWork" label="Field Work"/>
+    <category term="Instruments" label="Instruments"/>
+    <category term="WFIP3" label="WFIP3"/>
+    <published>2023-12-15T00:00:00+00:00</published>
   </entry>
 </feed>
