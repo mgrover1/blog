@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2023-12-16T02:20:24.762718+00:00</updated>
+  <updated>2023-12-18T01:45:51.383531+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -243,5 +243,25 @@ Hurricane Ian Plot</summary>
     <category term="Instruments" label="Instruments"/>
     <category term="WFIP3" label="WFIP3"/>
     <published>2023-12-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blog.mgrover.dev/posts/2023/wfip3-day3-4/</id>
+    <title>Argonne Instruments at WFIP3: Days 3-4: A Full Weekend</title>
+    <updated>2023-12-17T00:00:00+00:00</updated>
+    <author>
+      <name>Max Grover</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;We had a busy weekend deploying more instruments that are collecting data for the field observation portion of the 3rd Department of Energy funded Wind Forecast Improvement Project, which focuses on offshore wind regions off the coast of New England. On Saturday, we spent a bulk of the day putting the final touches on the 10 meter meteorology tower, shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Nantucket Tower" src="../_images/nantucket-tower-with-instruments.jpg" /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://blog.mgrover.dev/posts/2023/wfip3-day3-4/" rel="alternate"/>
+    <summary>We had a busy weekend deploying more instruments that are collecting data for the field observation portion of the 3rd Department of Energy funded Wind Forecast Improvement Project, which focuses on offshore wind regions off the coast of New England. On Saturday, we spent a bulk of the day putting the final touches on the 10 meter meteorology tower, shown below.Nantucket Tower</summary>
+    <category term="Argonne" label="Argonne"/>
+    <category term="FieldWork" label="Field Work"/>
+    <category term="Instruments" label="Instruments"/>
+    <category term="WFIP3" label="WFIP3"/>
+    <published>2023-12-17T00:00:00+00:00</published>
   </entry>
 </feed>
