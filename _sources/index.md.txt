@@ -4,11 +4,11 @@ Hello! I am a fortunate enough to work as a software developer at Argonne Nation
 
 ::::{grid}
 :::{grid-item-card}
-:link: about.html
+:link: about
 About me ℹ️
 :::
 :::{grid-item-card}
-:link: blog.html
+:link: blog
 My blog ✍️
 :::
 ::::
