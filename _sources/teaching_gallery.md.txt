@@ -1,5 +1,93 @@
 ``````{grid} 2
 :class-container: full-width
+`````{grid-item-card} AMS Radar 2023 Open Radar Short Course
+:text-align: center
+[<img src='https://openradarscience.org/ams-open-radar-2023/_static/ams-logo.jpeg'>](https://openradarscience.org/ams-open-radar-2023)
++++
+````{grid} 2 2 2 2
+:margin: 0 0 0 0
+:padding: 0 0 0 0
+:gutter: 1
+```{grid-item}
+:child-direction: row
+:child-align: start
+:class: sd-fs-5
+{bdg-link-secondary}`repo <https://github.com/openradar/ams-open-radar-2023>`
+```
+```{grid-item}
+:child-direction: row
+:child-align: end
+
+```
+````
+`````
+
+`````{grid-item-card} ARM Open Science in the Rockies AMS Short Course 2023
+:text-align: center
+[<img src='https://arm-development.github.io/open-science-rockies-2022/_static/arm_logo.png'>](https://arm-development.github.io/open-science-rockies-2022)
++++
+````{grid} 2 2 2 2
+:margin: 0 0 0 0
+:padding: 0 0 0 0
+:gutter: 1
+```{grid-item}
+:child-direction: row
+:child-align: start
+:class: sd-fs-5
+{bdg-link-secondary}`repo <https://github.com/arm-development/open-science-rockies-2022>`
+```
+```{grid-item}
+:child-direction: row
+:child-align: end
+
+```
+````
+`````
+
+`````{grid-item-card} MSCAR 2022 Python Workshop
+:text-align: center
+<iframe width="90%" src="https://www.youtube.com/embed/aNeAtaJWA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++++
+````{grid} 2 2 2 2
+:margin: 0 0 0 0
+:padding: 0 0 0 0
+:gutter: 1
+```{grid-item}
+:child-direction: row
+:child-align: start
+:class: sd-fs-5
+{bdg-link-secondary}`repo <https://github.com/mgrover1/mscar-python-workshop-2022/>`
+```
+```{grid-item}
+:child-direction: row
+:child-align: end
+
+```
+````
+`````
+
+`````{grid-item-card} ERAD 2022 Open Radar Short Course
+:text-align: center
+[<img src='https://openradarscience.org/erad2022/_static/erad_white_background.png'>](https://openradarscience.org/erad2022)
++++
+````{grid} 2 2 2 2
+:margin: 0 0 0 0
+:padding: 0 0 0 0
+:gutter: 1
+```{grid-item}
+:child-direction: row
+:child-align: start
+:class: sd-fs-5
+{bdg-link-secondary}`repo <https://github.com/openradar/erad2022>`
+```
+```{grid-item}
+:child-direction: row
+:child-align: end
+
+```
+````
+`````
+
 `````{grid-item-card} NCAR Python Tutorial Seminar Series - Intake-ESM
 :text-align: center
 <iframe width="90%" src="https://www.youtube.com/embed/pfdMbJMlYsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -13,28 +101,6 @@
 :child-align: start
 :class: sd-fs-5
 {bdg-link-secondary}`repo <https://github.com/ProjectPythiaTutorials/intake-esm-tutorial_2021_12_08>`
-```
-```{grid-item}
-:child-direction: row
-:child-align: end
-
-```
-````
-`````
-
-`````{grid-item-card} MSCAR Python Workshop
-:text-align: center
-<iframe width="90%" src="https://www.youtube.com/embed/aNeAtaJWA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-+++
-````{grid} 2 2 2 2
-:margin: 0 0 0 0
-:padding: 0 0 0 0
-:gutter: 1
-```{grid-item}
-:child-direction: row
-:child-align: start
-:class: sd-fs-5
-{bdg-link-secondary}`repo <https://github.com/mgrover1/mscar-python-workshop-2022/>`
 ```
 ```{grid-item}
 :child-direction: row
