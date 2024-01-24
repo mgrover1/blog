@@ -120,7 +120,7 @@ def build_teaching_gallery(app: Sphinx):
     LOGGER.info('Building teaching gallery')
     path = pathlib.Path(app.srcdir) / 'config_data/teaching.yaml'
     teaching = yaml.safe_load(path.read_text())
-    teaching = sorted(teaching, key=lambda item: item['date'])
+    teaching = sorted(teaching, key=lambda item: item['date'], reverse=True)
     grid_items = []
     for item in teaching:
         if not item.get('video'):

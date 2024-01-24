@@ -1,4 +1,19 @@
-- name: MSCAR Python Workshop
+- name: ERAD 2022 Open Radar Short Course
+  video: "[<img src='https://openradarscience.org/erad2022/_static/erad_white_background.png'>](https://openradarscience.org/erad2022)"
+  date: 2022-08-28
+  repository: https://github.com/openradar/erad2022
+
+- name: AMS Radar 2023 Open Radar Short Course
+  video: "[<img src='https://openradarscience.org/ams-open-radar-2023/_static/ams-logo.jpeg'>](https://openradarscience.org/ams-open-radar-2023)"
+  date: 2023-08-27
+  repository: https://github.com/openradar/ams-open-radar-2023
+
+- name: ARM Open Science in the Rockies AMS Short Course 2023
+  video: "[<img src='https://arm-development.github.io/open-science-rockies-2022/_static/arm_logo.png'>](https://arm-development.github.io/open-science-rockies-2022)"
+  date: 2023-01-08
+  repository: https://github.com/arm-development/open-science-rockies-2022
+
+- name: MSCAR 2022 Python Workshop
   video: '<iframe width="90%" src="https://www.youtube.com/embed/aNeAtaJWA5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   date: 2022-10-02
   repository: https://github.com/mgrover1/mscar-python-workshop-2022/
