@@ -11,6 +11,10 @@ About me ℹ️
 :link: blog
 My blog ✍️
 :::
+:::{grid-item-card}
+:link: teaching
+Previous Workshops 📚
+:::
 ::::
 
 ## Recent posts
