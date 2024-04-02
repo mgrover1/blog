@@ -32,5 +32,5 @@ about
 talks
 teaching
 blog
-timeline
+media
 ```
