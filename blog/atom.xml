@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mgrover.dev</id>
   <title>Max Grover</title>
-  <updated>2024-04-02T00:57:32.334898+00:00</updated>
+  <updated>2024-04-02T01:06:23.419701+00:00</updated>
   <link href="https://blog.mgrover.dev"/>
   <link href="https://blog.mgrover.dev/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
