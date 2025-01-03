@@ -6,6 +6,11 @@ If you are interested in chatting, feel free to contact me via:
 - My work email: mgrover@anl.gov
 - My personal email: mgroverwx@gmail.com
 
+## 2025
+- [**"Why 2024 Was Chicago’s Warmest Year In History"**](https://blockclubchicago.org/2025/01/03/why-2024-was-chicagos-warmest-year-in-history/)
+    - Online Newspaper - Block Club Chicago
+    - January 3, 2025
+
 ## 2024
 
 - [**"Wrigley's breeze, Guaranteed Rate's heat: How climate change is impacting baseball in Chicago"**](https://www.fox32chicago.com/news/wrigley-field-guaranteed-rate-climate-change-chicago-baseball)
