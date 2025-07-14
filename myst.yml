@@ -16,10 +16,10 @@ project:
   # description:
   # keywords: []
   github: https://github.com/mgrover1/blog
-  #plugins:
-  #  - type: executable
-  #    path: src/blogpost.py
-  #  - src/socialpost.mjs
+  plugins:
+    - type: executable
+      path: src/blogpost.py
+    - src/socialpost.mjs
   toc:
     - file: index.md
     - file: about.md
