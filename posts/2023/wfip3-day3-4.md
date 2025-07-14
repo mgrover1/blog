@@ -1,7 +1,11 @@
 ---
 author: Max Grover
 date: 2023-12-17
-tags: WFIP3, Argonne, Instruments, Field Work
+tags:
+- WFIP3
+- Argonne
+- Instruments
+- Field Work
 ---
 
 # Argonne Instruments at WFIP3: Days 3-4: A Full Weekend

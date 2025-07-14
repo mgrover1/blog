@@ -1,7 +1,11 @@
 ---
 author: Max Grover
 date: 2023-12-14
-tags: WFIP3, Argonne, Instruments, Field Work
+tags:
+- WFIP3
+- Argonne
+- Instruments
+- Field Work
 ---
 
 # Argonne Instruments at WFIP3: Day 1 - Landing in Nantucket

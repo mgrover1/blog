@@ -1,7 +1,10 @@
 ---
 author: Max Grover
 date: 2023-01-05
-tags: AMS, Conference, Colorado
+tags: 
+- AMS
+- Conference
+- Colorado
 ---
 
 # Pre-AMS 2023 Reflection
