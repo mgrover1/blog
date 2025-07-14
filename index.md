@@ -41,10 +41,3 @@ My blog ✍️
 Workshops 📚
 :::
 ::::
-
-
-## Recent blog posts
-
-:::{postlist}
-:number: 5
-:::
