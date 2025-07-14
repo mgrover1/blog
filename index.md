@@ -1,36 +1,50 @@
-# Max Grover
+---
+site:
+  hide_toc: true
+---
+# Hi, I'm Max Grover 👋
 
-Hello! I am a fortunate enough to work as a software developer at Argonne National Laboratory, primarily working with the Atmospheric Radiation Measurement Facility, focused on developing open-source tools to improve how we work with climate and weather datasets, such as [the Python ARM Radar Toolkit (Py-ART)](https://arm-doe.github.io/pyart/), [xradar](https://docs.openradarscience.org/projects/xradar/en/stable/), and [intake-esm](https://intake-esm.readthedocs.io/en/stable/).
+:::{figure} _static/profile-pic-circle.png
+:class: col-gutter-left
+:alt: Profile picture of Max Grover
+:align: center
+:width: 90%
+:::
+
+:::{table}
+:class: col-body-right
+| A bit about me... |
+|---|
+|💼 Atmospheric Data Scientist @ [Argonne National Lab](https://www.anl.gov/) |
+|🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
+|🌕 Core developer of [Py-ART](https://github.com/ARM-DOE/pyart) and [xradar](https://github.com/openradar/xradar) |
+|🧪 M.S. in Atmospheric Science from [the Univ. of Illinois](https://illinois.edu/) |
+:::
+
+I also work on several other [open-source projects](https://github.com/mgrover1) for science.
 
 ::::{grid}
 :::{grid-item-card}
-:link: about
+:link: about.md
 About me ℹ️
 :::
+<!-- :::{grid-item-card}
+:link: projects.md
+Projects I've worked on 🔧
+::: -->
 :::{grid-item-card}
-:link: blog
+:link: blog.md
 My blog ✍️
 :::
 :::{grid-item-card}
-:link: teaching
-Previous Workshops 📚
+:link: workshops
+Workshops 📚
 :::
 ::::
 
-## Recent posts
 
-```{postlist}
-:date: "%Y-%m-%d"
-:format: "{date} - {title}"
-:excerpts:
-```
+## Recent blog posts
 
-```{toctree}
-:maxdepth: 2
-:hidden:
-about
-talks
-teaching
-blog
-media
-```
+:::{postlist}
+:number: 5
+:::

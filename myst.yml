@@ -21,7 +21,7 @@ project:
       path: src/blogpost.py
     - src/socialpost.mjs
   toc:
-    - file: new-index.md
+    - file: index.md
     - file: about.md
     # - file: projects.md
     # - file: publications.md
