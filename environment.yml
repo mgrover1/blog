@@ -26,6 +26,11 @@ dependencies:
   - sphinx-comments
   - sphinx-panels
   - sphinxcontrib-bibtex
+  - jupyterlab-myst
+  - mystmd
+  - feedgen
+  - pyyaml
+  - rich
   - pip:
       - sphinxext-opengraph
       - sphinx-timeline
