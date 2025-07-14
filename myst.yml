@@ -33,9 +33,6 @@ project:
       - title: "2025"
         children:
         - pattern: "posts/2025/**{.ipynb,.md}"
-      - title: "2024"
-        children:
-        - pattern: "posts/2024/**{.ipynb,.md}"
       - title: "2023"
         children:
         - pattern: "posts/2023/**{.ipynb,.md}"
