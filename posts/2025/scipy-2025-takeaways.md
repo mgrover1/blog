@@ -1,3 +1,12 @@
+---
+author: Max Grover
+date: 2025-07-14
+tags:
+- SciPy
+- Tacoma
+- Conference
+---
+
 # SciPy 2025 🐍
 
 :::{caution}

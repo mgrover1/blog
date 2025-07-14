@@ -1,8 +1,12 @@
 ---
 author: Max Grover
 date: 2023-01-16
-tags: AMS, Conference, Colorado
+tags:
+- AMS
+- Conference
+- Colorado
 ---
+
 
 # AMS 2023 Reflections: Thank You Denver (and Boulder)!
 
