@@ -1,0 +1,75 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  #id: f84d70c6-7ee5-4bb9-9056-aa84134a33dd
+  title: "Welcome"
+  authors:
+    - name: Max Grover
+      website: https://blog.mgrover.dev
+      orcid: 0000-0002-0370-8974
+      github: mgrover1
+     # affiliations:
+     #   - name: Argonne National Laboratory
+     #     url: https://www.anl.gov/
+        #- name: Project Jupyter
+        #  url: https://jupyter.org
+  # description:
+  # keywords: []
+  github: https://github.com/mgrover1/blog
+  plugins:
+    - type: executable
+      path: src/blogpost.py
+    - src/socialpost.mjs
+  toc:
+    - file: new-index.md
+    - file: about.md
+    # - file: projects.md
+    # - file: publications.md
+    - file: talks.md
+    - file: workshops.md
+    - file: media.md
+    - file: blog.md
+      children:
+      - title: "2025"
+        children:
+        - pattern: "posts/2025/**{.ipynb,.md}"
+      - title: "2024"
+        children:
+        - pattern: "posts/2024/**{.ipynb,.md}"
+      - title: "2023"
+        children:
+        - pattern: "posts/2023/**{.ipynb,.md}"
+      - title: "2022"
+        children:
+        - pattern: "posts/2022/**{.ipynb,.md}"
+      - title: "2021"
+        children:
+        - pattern: "posts/2021/**{.ipynb,.md}"
+    
+site:
+  template: book-theme
+  options:
+    folders: true
+    logo_text: Max Grover
+    #analytics_google: G-G5PMZM6RPE # Measurement ID or Tracking ID
+    favicon: _static/profile-pic-circle.jpg
+  domains:
+    - mgrover1.github.io
+  # actions:
+  #   - title: RSS
+  #     url: https://tomnicholas.com/rss.xml
+  nav:
+    - title: About
+      url: /about
+    # - title: Projects
+    #   url: /projects
+    # - title: Publications
+    #   url: /publications
+    - title: Talks
+      url: /talks
+    - title: Workshops
+      url: /workshops
+    - title: Media
+      url: /media
+    - title: Blog
+      url: /blog

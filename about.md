@@ -4,15 +4,14 @@ I work as an Atmospheric Data Scientist at Argonne National Laboratory, where I 
 
 ## What I do
 
-````{grid}
-
-```{grid-item}
-:columns: 3
+```{div}
+:class: col-gutter-left
 
 **Open Source and Open Science**
 ```
-```{grid-item}
-:columns: 9
+
+```{div}
+:class: col-body-right
 
 I work on projects that make analyzing large atmospheric/climate datasets easier, and ensure folks have an inclusive community around the tools to support robust communities of practice.
 
@@ -23,24 +22,26 @@ I contribute to a few open-source projects that support the weather/climate comm
 - [intake-esm](https://intake-esm.readthedocs.io/en/stable/) - a data cataloging utility built on top of intake, pandas, and xarray, and it’s pretty awesome!
 - [The Open Radar Forum](https://openradar.discourse.group/) - a place for the weather radar community to come together.
 
-For an idea of the kinds of projects that I work on, check out my [{fa}`github,style=fab` GitHub page](https://github.com/mgrover1)
+For an idea of the kinds of projects that I work on, check out my [GitHub](https://github.com/mgrover1)
+```
 
+
+```{div}
+:class: col-gutter-left
+
+**Outreach and Community Involvement**
 ```
-```{grid-item}
-:columns: 3
-**Outreach and Community Involvment**
-```
-```{grid-item}
-:columns: 9
+
+```{div}
+:class: col-body-right
 
 I regularly teach short-courses at academic meetings, including the American Meteorological Society (AMS)Meetings (Radar and Annual), European Conference on Radar in Meteorology and Hydrology, as well as smaller workshops and webinars.
 
-I am also involved as a member of the AMS Board on Environmental Information Processing Technologies, as well as co-chair for the Earth, Ocean, Geo, and Atmospheric Science track at the annual [scientific python conference](https://www.scipy2024.scipy.org/).
+I am also involved as co-chair of the AMS Committee on Environmental Information Processing Technologies, as well as co-chair for the Earth, Ocean, Geo, and Atmospheric Science track at the annual [scientific python conference](https://www.scipy2024.scipy.org/).
 
 For a list of publications and scholarly artifacts (such as datasets) in which I've been involved,
 check out [my ORCID page](https://orcid.org/0000-0002-0370-8974) or [my Google Scholar page](https://scholar.google.com/citations?user=ZQMa8CkAAAAJ&hl=en).
 ```
-````
 
 ## CV
 In a more CV/resume style, here is more information about my background:
