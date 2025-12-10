@@ -11,7 +11,7 @@ dependencies:
   - jupyterlab>=3
   - myst-nb
   - pydata-sphinx-theme
-  - python=3.9
+  - python=3.11
   - cartopy
   - geopandas
   - fiona
@@ -31,7 +31,7 @@ dependencies:
   - feedgen
   - pyyaml
   - rich
+  - sphinxext-opengraph
+  - sphinx-design
   - pip:
-      - sphinxext-opengraph
-      - sphinx-timeline
-      - sphinx-design
+    - sphinx-timeline

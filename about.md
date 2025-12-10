@@ -1,6 +1,6 @@
 # About Me
 
-I work as an Atmospheric Data Scientist at Argonne National Laboratory, where I contribute to tools and infrastructure to enable open science.
+I work as a Senior Weather Software Engineer at Spire Global, where I contribute to tools and infrastructure to enable open science.
 
 ## What I do
 
@@ -61,16 +61,14 @@ Here is a brief timeline of my professional journey
 ````{grid-item-card}
 :class-item: entry left
 
-**2022**: Joined [Argonne National Laboratory](https://www.anl.gov/) as an Atmospheric Data Scientist
+**2025**: Joined [Spire Global](https://spire.com/) as a Senior Weather Software Engineer
 ^^^
 
-Argonne National Laboratory is a Department Energy Office of Science facility, where I work on projects
-related to open atmospheric and climate science. Key programs/projects I work on include:
+Spire Global is a space-based data, analytics, and space services company that uses satellites to collect global data. I work on software engineering projects related to weather and climate data, deploying state-of-the-art data pipelines
+to cloud platforms. Open-source projects relevant to this role include:
+- [**gribberish**](https://github.com/mpiannucci/gribberish)
+- [**icechunk**](https://github.com/earth-mover/icechunk)
 
-- **[ARM User Facility](https://arm.gov)**
-- **[Open Radar Community](https://openradarscience.org/)**
-- **[Earth System Grid Federation](https://esgf.llnl.gov/)**
-- **[CROCUS UIFL](https://crocus-urban.org)**
 
 ````
 ````{grid-item}
@@ -82,6 +80,20 @@ related to open atmospheric and climate science. Key programs/projects I work on
 ````{grid-item-card}
 :class-item: entry right
 
+**2022-2025**: [Argonne National Laboratory](https://www.anl.gov/) - Atmospheric Data Scientist
+^^^
+
+Argonne National Laboratory is a Department of Energy Office of Science facility, where I worked on projects
+related to open atmospheric and climate science. Key programs/projects I worked on include:
+
+- **[ARM User Facility](https://arm.gov)**
+- **[Open Radar Community](https://openradarscience.org/)**
+- **[Earth System Grid Federation](https://esgf.llnl.gov/)**
+- **[CROCUS UIFL](https://crocus-urban.org)**
+
+````
+````{grid-item-card}
+:class-item: entry left
 
 **2021**: Joined NCAR
 ^^^
@@ -92,14 +104,6 @@ After finishing graduate school at the University of Illinois, I began my data s
 - Co-lead development of [intake-esm](https://github.com/intake/intake-esm), a tool used for organizing petabyte-scale climate model datasets.
 - Hosted office hours for the community to ask [pangeo-related](https://pangeo.io/) questions, building a community of practice around common analysis workflows.
 ````
-````{grid-item-card}
-:class-item: entry left
-
-**Fall 2019**: Started graduate school at the University of Illinois Urbana-Champaign
-^^^
-
-My scientific training began as an atmospheric scientist, where I studied deep convective storm dynamics in South America. I used observations from the [RELAMPAGO-CACTI](https://www.eol.ucar.edu/field_projects/relampago) field campaign, which focused on some of the largest storms on earth, located in the Sierras de Cordoba region of Argentina. In particular I focused on relating observations from space-borne satellites to ground-based radars.
-````
 ````{grid-item}
 :class: right
 ````
@@ -109,13 +113,27 @@ My scientific training began as an atmospheric scientist, where I studied deep c
 ````{grid-item-card}
 :class-item: entry right
 
+**Fall 2019**: Started graduate school at the University of Illinois Urbana-Champaign
+^^^
+
+My scientific training began as an atmospheric scientist, where I studied deep convective storm dynamics in South America. I used observations from the [RELAMPAGO-CACTI](https://www.eol.ucar.edu/field_projects/relampago) field campaign, which focused on some of the largest storms on earth, located in the Sierras de Cordoba region of Argentina. In particular I focused on relating observations from space-borne satellites to ground-based radars.
+````
+````{grid-item-card}
+:class-item: entry left
+
 **Summer 2019**: Interned at [Unidata](https://www.unidata.ucar.edu/)
 
 Unidata (a National Science Foundation funded organization) is a diverse community of education and research institutions with the common goal of sharing geoscience data and the tools to access and visualize that data. During my time there, I spent most of my time adding a [METAR parser](https://unidata.github.io/MetPy/latest/api/generated/metpy.io.parse_metar_file.html#metpy.io.parse_metar_file) to [MetPy](https://unidata.github.io/MetPy/latest/), the go-to python library for working with weather data.
 
 ````
+````{grid-item}
+:class: right
+````
+````{grid-item}
+:class: left
+````
 ````{grid-item-card}
-:class-item: entry left
+:class-item: entry right
 
 **2019** Graduated from Valpo
 ^^^

@@ -15,9 +15,9 @@ site:
 :class: col-body-right
 | A bit about me... |
 |---|
-|💼 Atmospheric Data Scientist @ [Argonne National Lab](https://www.anl.gov/) |
+|💼 Senior Weather Software Engineer @ [Spire Global](https://spire.com/) |
 |🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
-|🌕 Core developer of [Py-ART](https://github.com/ARM-DOE/pyart) and [xradar](https://github.com/openradar/xradar) |
+|🌕 Core developer of [Py-ART](https://github.com/ARM-DOE/pyart), [xradar](https://github.com/openradar/xradar), and [gribberish](https://github.com/mpiannucci/gribberish) |
 |🧪 M.S. in Atmospheric Science from [the Univ. of Illinois](https://illinois.edu/) |
 :::
 
