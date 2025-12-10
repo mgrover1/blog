@@ -1,1 +1,1 @@
-import{a}from"https://blog.mgrover.dev//build/_shared/chunk-JRVCZGCT.js";import"https://blog.mgrover.dev//build/_shared/chunk-QQNNMZV3.js";import"https://blog.mgrover.dev//build/_shared/chunk-XK3K4AT7.js";import"https://blog.mgrover.dev//build/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"/blog/build/_shared/chunk-JRVCZGCT.js";import"/blog/build/_shared/chunk-QQNNMZV3.js";import"/blog/build/_shared/chunk-XK3K4AT7.js";import"/blog/build/_shared/chunk-OZE3FFNP.js";export default a();
