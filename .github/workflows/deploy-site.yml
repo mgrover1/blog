@@ -33,7 +33,7 @@ jobs:
     # Build the book
     - name: Build the site
       run: |
-        export BASE_URL="/blog"
+        export BASE_URL=""
         myst build --html
 
     # Move RSS feeds to output folder
