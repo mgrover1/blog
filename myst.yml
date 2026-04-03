@@ -1,20 +1,12 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  #id: f84d70c6-7ee5-4bb9-9056-aa84134a33dd
   title: "Welcome"
   authors:
     - name: Max Grover
       website: https://blog.mgrover.dev
       orcid: 0000-0002-0370-8974
       github: mgrover1
-     # affiliations:
-     #   - name: Argonne National Laboratory
-     #     url: https://www.anl.gov/
-        #- name: Project Jupyter
-        #  url: https://jupyter.org
-  # description:
-  # keywords: []
   github: https://github.com/mgrover1/blog
   plugins:
     - type: executable
@@ -23,13 +15,15 @@ project:
   toc:
     - file: index.md
     - file: about.md
-    # - file: projects.md
-    # - file: publications.md
+    - file: projects.md
     - file: talks.md
     - file: workshops.md
     - file: media.md
     - file: blog.md
       children:
+      - title: "2026"
+        children:
+        - pattern: "posts/2026/**{.ipynb,.md}"
       - title: "2025"
         children:
         - pattern: "posts/2025/**{.ipynb,.md}"
@@ -48,20 +42,14 @@ site:
   options:
     folders: true
     logo_text: Max Grover
-    #analytics_google: G-G5PMZM6RPE # Measurement ID or Tracking ID
     favicon: _static/profile-pic-circle.jpg
   domains:
     - mgrover1.github.io
-  # actions:
-  #   - title: RSS
-  #     url: https://tomnicholas.com/rss.xml
   nav:
     - title: About
       url: /about
-    # - title: Projects
-    #   url: /projects
-    # - title: Publications
-    #   url: /publications
+    - title: Projects
+      url: /projects
     - title: Talks
       url: /talks
     - title: Workshops

@@ -40,7 +40,7 @@ for ifile in root.rglob("posts/**/*.md"):
     content = "\n".join(ii for ii in content.splitlines() if not any(ii.startswith(char) for char in skip_lines))
     N_WORDS = 50
     words = " ".join(content.split(" ")[:N_WORDS])
-    if not "author" in meta or not meta["author"]:
+    if "author" not in meta or not meta["author"]:
         meta["author"] = "Max Grover"
     meta["content"] = meta.get("description", words)
     posts.append(meta)
@@ -112,7 +112,7 @@ for ix, irow in posts.iterrows():
               "children": [
                 u.strong([u.text("Date: ")]), u.text(f"{irow['date']:%B %d, %Y} | "),
                 u.strong([u.text("Author: ")]), u.text(f"{irow['author']} | "),
-                u.strong([u.text("Tags: ")]), u.text(f"{", ".join(irow['tags'])}"),
+                u.strong([u.text("Tags: ")]), u.text(", ".join(irow['tags'])),
               ]
             },
           ]

@@ -20,6 +20,7 @@ I contribute to a few open-source projects that support the weather/climate comm
 - [Python ARM Radar Toolkit (Py-ART)](https://arm-doe.github.io/pyart/) - a Python library containing a collection of weather radar algorithms and utilities.
 - [xradar](https://docs.openradarscience.org/projects/xradar/en/stable/) - includes all the tools to get your bring weather radar data in the [pangeo ecosystem](https://pangeo.io/).
 - [intake-esm](https://intake-esm.readthedocs.io/en/stable/) - a data cataloging utility built on top of intake, pandas, and xarray, and it’s pretty awesome!
+- [gribberish](https://github.com/mpiannucci/gribberish) - a high-performance Rust-based GRIB2 decoder with Python bindings for decoding weather data at scale.
 - [The Open Radar Forum](https://openradar.discourse.group/) - a place for the weather radar community to come together.
 
 For an idea of the kinds of projects that I work on, check out my [GitHub](https://github.com/mgrover1)
@@ -66,8 +67,7 @@ Here is a brief timeline of my professional journey
 
 Spire Global is a space-based data, analytics, and space services company that uses satellites to collect global data. I work on software engineering projects related to weather and climate data, deploying state-of-the-art data pipelines
 to cloud platforms. Open-source projects relevant to this role include:
-- [**gribberish**](https://github.com/mpiannucci/gribberish)
-- [**icechunk**](https://github.com/earth-mover/icechunk)
+- [**gribberish**](https://github.com/mpiannucci/gribberish) - a high-performance Rust-based GRIB2 decoder with Python bindings, used for decoding satellite weather data at scale in cloud pipelines.
 
 
 ````

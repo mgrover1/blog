@@ -3,7 +3,6 @@
 As of recent, I have particpated in media outreach, talking to public media outlets about climate, weather, and data!
 
 If you are interested in chatting, feel free to contact me via:
-- My work email: maxwell.grover@spire.com
 - My personal email: mgroverwx@gmail.com
 
 ## 2025
