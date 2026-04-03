@@ -17,7 +17,7 @@ site:
 |---|
 |💼 Senior Weather Software Engineer @ [Spire Global](https://spire.com/) |
 |🌎 Active member of the [Pangeo Community](https://pangeo.io/) |
-|🌕 Core developer of [Py-ART](https://github.com/ARM-DOE/pyart), [xradar](https://github.com/openradar/xradar), and [gribberish](https://github.com/mpiannucci/gribberish) |
+|🌕 Core developer of [Py-ART](https://github.com/ARM-DOE/pyart) and [xradar](https://github.com/openradar/xradar) |
 |🧪 M.S. in Atmospheric Science from [the Univ. of Illinois](https://illinois.edu/) |
 :::
 
@@ -28,10 +28,10 @@ I also work on several other [open-source projects](https://github.com/mgrover1)
 :link: about.md
 About me ℹ️
 :::
-<!-- :::{grid-item-card}
+:::{grid-item-card}
 :link: projects.md
 Projects I've worked on 🔧
-::: -->
+:::
 :::{grid-item-card}
 :link: blog.md
 My blog ✍️
